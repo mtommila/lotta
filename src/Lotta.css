@@ -1,0 +1,71 @@
+.home {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 320px) {
+  .home {
+    background-image: url("background_320.jpg");
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .home {
+    background-image: url("background_768.jpg");
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
+  .home {
+    background-image: url("background_1920.jpg");
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  .home {
+    background-image: url("background.jpg");
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle {
+  border: 0.5em solid;
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+
+.sun {
+  border-color: yellow;
+}
+
+.info {
+  border-color: grey;
+}
+
+.kindergarten {
+  border-color: red;
+}
+
+.elementary {
+  border-color: orange;
+}
+
+.highschool {
+  border-color: purple;
+}

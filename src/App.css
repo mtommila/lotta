@@ -1,0 +1,14 @@
+nav {
+  z-index: 1;
+  position: absolute;
+}
+
+.switcher {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.switcher button {
+  margin: 0 40%;
+}

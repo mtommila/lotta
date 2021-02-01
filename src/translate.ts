@@ -8,6 +8,7 @@ export const messages: any = {
     kindergarten_linktext: "Päiväkoti-ikäisille",
     lower_elementary_linktext: "Ala-asteikäisille",
     junior_highschool_linktext: "Yläasteikäisille",
+    suitcase: "Matkalaukku",
   },
   sv: {
     welcome_linktext: "Och samma på svenska",
@@ -16,6 +17,7 @@ export const messages: any = {
     kindergarten_linktext: "Jag har {num, plural, one {# bil} other {# bilar}}",
     lower_elementary_linktext: "Och samma på svenska",
     junior_highschool_linktext: "Och samma på svenska",
+    suitcase: "Baggage",
   },
 };
 

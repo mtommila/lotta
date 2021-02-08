@@ -46,4 +46,6 @@ const translate = (id: string, values?: {}) => {
   return intl.formatMessage({ id }, values);
 };
 
+export const translateComponent = (id: string) => require('./' + id + '_' + intl.locale).default;
+
 export default translate;

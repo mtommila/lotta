@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { FormattedMessage, useIntl } from "react-intl";
 import translate, {translateComponent} from "./translate";
+import Code from './Code';
 import './Kindergarten.css';
 import suitcaseClosed from './suitcase_closed.jpg';
 import suitcaseOpen from './suitcase_open.jpg';
@@ -21,6 +22,7 @@ const Kindergarten = () => {
                onClick={() => suitcaseAudio.play().then(() => setSuitcaseOpen(true))}/>
       }
       <KindergartenLang/>
+      <Code/>
     </div>
   );
 }

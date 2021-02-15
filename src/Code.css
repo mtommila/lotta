@@ -1,0 +1,8 @@
+.code {
+  justify-content: center;
+  text-align: center;
+}
+
+input .code {
+  width: 10em;
+}

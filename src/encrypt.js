@@ -16,5 +16,5 @@ while (key.length < 32) {
 key = key.substring(0, 32);
 
 const cipher = crypto.createCipheriv("aes-256-gcm", key, iv);
-console.log("Block: " + cipher.update(message, "binary", "hex"));
+console.log("Block: " + cipher.update(message, "utf8", "hex"));
 console.log("Final: " + cipher.final("hex"));

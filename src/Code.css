@@ -1,8 +1,45 @@
 .code {
-  justify-content: center;
   text-align: center;
+  position: relative;
 }
 
-input .code {
+input.code {
   width: 10em;
+  border: 0.2em solid black;
+  border-radius: 0.5em;
+}
+
+.popup {
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -22em;
+  height: 20em;
+  width: 20em;
+  border: 0.2em solid gold;
+  border-radius: 0.5em;
+  background-color: white;
+  margin: 1em;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.close {
+  width: 1em;
+  border: 0.1em solid crimson;
+  border-radius: 0.25em;
+  margin-top: -0.1em;
+  margin-right: -0.1em;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.message {
+  width: 100%;
+  text-align: center;
 }

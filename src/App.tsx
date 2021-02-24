@@ -27,10 +27,14 @@ const App = () => {
           }}
           disabled={lang === "fi"}
         >
-          <span aria-label="fi-flag" role="img">
-            FI
+          <span aria-label="Valitse suomen kieli" role="img">
+            <svg width="1.8em" height="1.1em" viewBox="0 0 18 11">
+              <rect width="18" height="11" fill="#fff"/>
+              <rect width="18" height="3" y="4" fill="#003580"/>
+              <rect width="3" height="11" x="5" fill="#003580"/>
+            </svg>
           </span>
-          fi
+          Suomeksi
         </button>
         <button
           onClick={() => {
@@ -39,10 +43,14 @@ const App = () => {
           }}
           disabled={lang === "sv"}
         >
-          <span aria-label="se-flag" role="img">
-            SE
+          <span aria-label="På svenska" role="img">
+            <svg width="1.6em" height="1.0em" viewBox="0 0 16 10">
+              <rect width="16" height="10" fill="#006aa7"/>
+              <rect width="2" height="10" x="5" fill="#fecc00"/>
+              <rect width="16" height="2" y="4" fill="#fecc00"/>
+            </svg>
           </span>
-          sv
+          På svenska
         </button>
       </div>
       <Router>

@@ -7,8 +7,13 @@ nav {
   z-index: 1;
   position: absolute;
   width: 100%;
+  display: flex;
+  justify-content: right;
 }
 
 .switcher button {
-  margin: 0 40%;
+  margin: 0.5em;
+  border: 0.1em solid black;
+  border-radius: 0.2em;
+  padding: 0.2em;
 }

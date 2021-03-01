@@ -14,6 +14,7 @@ import Info from './Info';
 import Kindergarten from './Kindergarten';
 import Elementary from './Elementary';
 import Highschool from './Highschool';
+import SkiBadge from './SkiBadge';
 
 const App = () => {
   const [lang, setLang] = React.useState("fi");
@@ -78,6 +79,9 @@ const App = () => {
           </Route>
           <Route path="/info">
             <Info/>
+          </Route>
+          <Route path="/paivakoti/hiihtomerkki">
+            <SkiBadge/>
           </Route>
           <Route path="/paivakoti">
             <Kindergarten/>

@@ -1,0 +1,46 @@
+.full {
+  max-height: 100vh;
+  max-width: 100%;
+}
+
+.base {
+  display: inline-block;
+  position: relative;
+}
+
+.background {
+  z-index: -1;
+}
+
+.foreground {
+  position: absolute;
+}
+
+.foreground:hover {
+  transform: scale(1.75);
+  transition: transform 1s;
+}
+.item1 {
+  top: 40%;
+  left: 10%;
+}
+
+.item2 {
+  top: 45%;
+  left: 40%;
+}
+
+.item3 {
+  top: 50%;
+  left: 68%;
+}
+
+.item4 {
+  top: 49%;
+  left: 5%;
+}
+
+.item5 {
+  top: 65%;
+  left: 67%;
+}

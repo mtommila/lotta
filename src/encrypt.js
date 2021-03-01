@@ -13,7 +13,7 @@ console.log('IV is: ' + iv);
 while (key.length < 32) {
   key += key;
 }
-key = key.substring(0, 32);
+key = new TextEncoder().encode(key).slice(0, 32);
 
 const cipher = crypto.createCipheriv('aes-256-gcm', key, iv);
 console.log('Block: ' + cipher.update(message, 'utf8', 'hex'));

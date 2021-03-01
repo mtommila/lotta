@@ -1,3 +1,5 @@
+import React from 'react';
+
 const KindergartenTheatrePermit_fi = () => {
   return (
     <div>

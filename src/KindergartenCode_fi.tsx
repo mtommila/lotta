@@ -1,5 +1,5 @@
-import React from "react";
-import Code from "./Code";
+import React from 'react';
+import Code from './Code';
 
 const KindergartenCode_fi = () => {
   return (

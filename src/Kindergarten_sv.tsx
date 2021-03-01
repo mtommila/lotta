@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Kindergarten_sv = () => {
   return (
     <div>

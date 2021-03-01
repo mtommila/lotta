@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import { FormattedMessage, useIntl } from "react-intl";
-import translate from "./translate";
+import { Link } from 'react-router-dom';
+import { FormattedMessage, useIntl } from 'react-intl';
+import translate from './translate';
 import './Lotta.css';
 
 const Lotta = () => {
@@ -14,29 +14,29 @@ const Lotta = () => {
       <div className="row">
         <Link to="/tervetuloa">
           <div className="circle sun">
-            {translate("welcome_linktext")}
+            {translate('welcome_linktext')}
           </div>
         </Link>
         <Link to="/info">
           <div className="circle info">
-            {translate("lottainfo_linktext")}
+            {translate('lottainfo_linktext')}
           </div>
         </Link>
       </div>
       <div className="row">
         <Link to="/paivakoti">
           <div className="circle kindergarten">
-            {translate("kindergarten_linktext")}
+            {translate('kindergarten_linktext')}
           </div>
         </Link>
         <Link to="/ala-aste">
           <div className="circle elementary">
-            {translate("lower_elementary_linktext")}
+            {translate('lower_elementary_linktext')}
           </div>
         </Link>
         <Link to="/ylaaste">
           <div className="circle highschool">
-            {translate("junior_highschool_linktext")}
+            {translate('junior_highschool_linktext')}
           </div>
         </Link>
       </div>

@@ -1,3 +1,5 @@
+import React from 'react';
+
 const KindergartenMailPile_fi = () => {
   return (
     <div>

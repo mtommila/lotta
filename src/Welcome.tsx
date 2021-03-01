@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import { FormattedMessage, useIntl } from "react-intl";
-import translate from "./translate";
+import { Link } from 'react-router-dom';
+import { FormattedMessage, useIntl } from 'react-intl';
+import translate from './translate';
 import './Info.css';
 
 const Welcome = () => {

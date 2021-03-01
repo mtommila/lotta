@@ -1,12 +1,12 @@
 import React from 'react';
-import { IntlProvider } from "react-intl";
+import { IntlProvider } from 'react-intl';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
-} from "react-router-dom";
-import translate, { changeLanguage, messages } from "./translate";
+  Link,
+} from 'react-router-dom';
+import translate, { changeLanguage, messages } from './translate';
 import './App.css';
 import Lotta from './Lotta';
 import Welcome from './Welcome';
@@ -17,16 +17,16 @@ import Highschool from './Highschool';
 import Child from './Child';
 
 const App = () => {
-  const [lang, setLang] = React.useState("fi");
+  const [lang, setLang] = React.useState('fi');
   return (
     <IntlProvider locale={lang} messages={messages[lang]}>
       <div className="switcher">
         <button
           onClick={() => {
-            setLang("fi");
-            changeLanguage("fi");
+            setLang('fi');
+            changeLanguage('fi');
           }}
-          disabled={lang === "fi"}
+          disabled={lang === 'fi'}
         >
           <span aria-label="Valitse suomen kieli" role="img">
             <svg width="1.8em" height="1.1em" viewBox="0 0 18 11">
@@ -39,10 +39,10 @@ const App = () => {
         </button>
         <button
           onClick={() => {
-            setLang("sv");
-            changeLanguage("sv");
+            setLang('sv');
+            changeLanguage('sv');
           }}
-          disabled={lang === "sv"}
+          disabled={lang === 'sv'}
         >
           <span aria-label="På svenska" role="img">
             <svg width="1.6em" height="1.0em" viewBox="0 0 16 10">
@@ -58,7 +58,7 @@ const App = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/">{translate("homepage_linktext")}</Link>
+              <Link to="/">{translate('homepage_linktext')}</Link>
             </li>
             {/*
             <li>

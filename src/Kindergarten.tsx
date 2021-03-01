@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import { FormattedMessage, useIntl } from "react-intl";
-import translate, {translateComponent} from "./translate";
+import { Link } from 'react-router-dom';
+import { FormattedMessage, useIntl } from 'react-intl';
+import translate, {translateComponent} from './translate';
 import './Kindergarten.css';
 import suitcaseClosed from './suitcase_closed.jpg';
 import suitcaseOpen from './suitcase_open.jpg';
@@ -12,8 +12,8 @@ import mailPile from './mail_pile.png';
 import theatrePermit from './theatre_permit.png';
 
 const Kindergarten = () => {
-  let [isSuitcaseOpen, setSuitcaseOpen] = React.useState(false);
-  let suitcaseAudio = new Audio(process.env.PUBLIC_URL + '/suitcase.mp3');
+  const [isSuitcaseOpen, setSuitcaseOpen] = React.useState(false);
+  const suitcaseAudio = new Audio(process.env.PUBLIC_URL + '/suitcase.mp3');
   const KindergartenLang = translateComponent('Kindergarten');
   return (
     <div>
@@ -29,7 +29,7 @@ const Kindergarten = () => {
           </div>
           :
           <img className="full" src={suitcaseClosed} alt={translate('suitcase')}
-               onClick={() => suitcaseAudio.play().then(() => setSuitcaseOpen(true))}/>
+            onClick={() => suitcaseAudio.play().then(() => setSuitcaseOpen(true))}/>
       }
       <KindergartenLang/>
     </div>

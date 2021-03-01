@@ -1,3 +1,5 @@
+import React from 'react';
+
 const KindergartenSkiBadge_fi = () => {
   return (
     <div>

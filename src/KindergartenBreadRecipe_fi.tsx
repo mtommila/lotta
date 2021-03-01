@@ -1,3 +1,5 @@
+import React from 'react';
+
 const KindergartenBreadRecipe_fi = () => {
   return (
     <div>

@@ -10,6 +10,6 @@ const Elementary = () => {
       Kertomus hieman erilainen
     </div>
   );
-}
+};
 
 export default Elementary;

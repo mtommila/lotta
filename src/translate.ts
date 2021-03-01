@@ -9,6 +9,7 @@ export const messages: any = {
     lower_elementary_linktext: "Ala-asteikäisille",
     junior_highschool_linktext: "Yläasteikäisille",
     suitcase: "Matkalaukku",
+    return_linktext: "Palaa",
   },
   sv: {
     welcome_linktext: "Och samma på svenska",
@@ -18,6 +19,7 @@ export const messages: any = {
     lower_elementary_linktext: "Och samma på svenska",
     junior_highschool_linktext: "Och samma på svenska",
     suitcase: "Baggage",
+    return_linktext: "Returnera",
   },
 };
 

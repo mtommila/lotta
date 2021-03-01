@@ -42,6 +42,6 @@ const Lotta = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Lotta;

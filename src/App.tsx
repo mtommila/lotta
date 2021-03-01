@@ -14,7 +14,7 @@ import Info from './Info';
 import Kindergarten from './Kindergarten';
 import Elementary from './Elementary';
 import Highschool from './Highschool';
-import SkiBadge from './SkiBadge';
+import Child from './Child';
 
 const App = () => {
   const [lang, setLang] = React.useState("fi");
@@ -80,8 +80,26 @@ const App = () => {
           <Route path="/info">
             <Info/>
           </Route>
+          <Route path="/paivakoti/alku">
+            <Child component="KindergartenIntro" returnUrl="/paivakoti"/>
+          </Route>
           <Route path="/paivakoti/hiihtomerkki">
-            <SkiBadge/>
+            <Child component="KindergartenSkiBadge" returnUrl="/paivakoti"/>
+          </Route>
+          <Route path="/paivakoti/talkoomerkki">
+            <Child component="KindergartenBeeBadge" returnUrl="/paivakoti"/>
+          </Route>
+          <Route path="/paivakoti/resepti">
+            <Child component="KindergartenBreadRecipe" returnUrl="/paivakoti"/>
+          </Route>
+          <Route path="/paivakoti/posti">
+            <Child component="KindergartenMailPile" returnUrl="/paivakoti"/>
+          </Route>
+          <Route path="/paivakoti/teatterilupa">
+            <Child component="KindergartenTheatrePermit" returnUrl="/paivakoti"/>
+          </Route>
+          <Route path="/paivakoti/koodi">
+            <Child component="KindergartenCode" returnUrl="/paivakoti"/>
           </Route>
           <Route path="/paivakoti">
             <Kindergarten/>
@@ -99,6 +117,6 @@ const App = () => {
       </Router>
     </IntlProvider>
   );
-}
+};
 
 export default App;

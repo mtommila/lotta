@@ -15,6 +15,6 @@ const Welcome = () => {
         yms. yms.
     </div>
   );
-}
+};
 
 export default Welcome;

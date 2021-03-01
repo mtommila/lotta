@@ -10,6 +10,6 @@ const Highschool = () => {
       Kertomus hieman erilainen tämäkin
     </div>
   );
-}
+};
 
 export default Highschool;

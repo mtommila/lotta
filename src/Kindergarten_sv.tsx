@@ -19,6 +19,6 @@ const Kindergarten_sv = () => {
       <p>Du kan ta itu med dessa problem som du vill i gruppen, till exempel genom att chatta, berätta, rita, flytta, musik / låtar.</p>
     </div>
   );
-}
+};
 
 export default Kindergarten_sv;

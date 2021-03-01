@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { FormattedMessage, useIntl } from "react-intl";
 import translate, {translateComponent} from "./translate";
-import Code from './Code';
 import './Kindergarten.css';
 import suitcaseClosed from './suitcase_closed.jpg';
 import suitcaseOpen from './suitcase_open.jpg';
@@ -18,25 +17,23 @@ const Kindergarten = () => {
   const KindergartenLang = translateComponent('Kindergarten');
   return (
     <div>
-      <h1>Mitä pikkulotat tekivät</h1>
       {
         isSuitcaseOpen ?
           <div className="full base">
             <img className="background full" src={suitcaseOpen} alt={translate('suitcase')}/>
             <Link to="/paivakoti/hiihtomerkki"><img className="foreground item1" src={skiBadge} alt={translate('ski_badge')} width="7.0%" height="8.175%"/></Link>
-            <img className="foreground item2" src={beeBadge} alt={translate('bee_badge')} width="8.88%" height="9.45%"/>
-            <img className="foreground item3" src={breadRecipe} alt={translate('bread_recipe')} width="19.76%" height="11.13%"/>
-            <img className="foreground item4" src={mailPile} alt={translate('mail_pile')} width="33%" height="27%"/>
-            <img className="foreground item5" src={theatrePermit} alt={translate('theatre_permit')} width="18.6%" height="19.5975%"/>
+            <Link to="/paivakoti/talkoomerkki"><img className="foreground item2" src={beeBadge} alt={translate('bee_badge')} width="8.88%" height="9.45%"/></Link>
+            <Link to="/paivakoti/resepti"><img className="foreground item3" src={breadRecipe} alt={translate('bread_recipe')} width="19.76%" height="11.13%"/></Link>
+            <Link to="/paivakoti/posti"><img className="foreground item4" src={mailPile} alt={translate('mail_pile')} width="33%" height="27%"/></Link>
+            <Link to="/paivakoti/teatterilupa"><img className="foreground item5" src={theatrePermit} alt={translate('theatre_permit')} width="18.6%" height="19.5975%"/></Link>
           </div>
           :
           <img className="full" src={suitcaseClosed} alt={translate('suitcase')}
                onClick={() => suitcaseAudio.play().then(() => setSuitcaseOpen(true))}/>
       }
       <KindergartenLang/>
-      <Code/>
     </div>
   );
-}
+};
 
 export default Kindergarten;

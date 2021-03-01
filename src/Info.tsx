@@ -10,6 +10,6 @@ const Info = () => {
       Tässä kerrotaan lottien toiminnan periaatteet ja säätiön toiminnasta nykypäivänä.
     </div>
   );
-}
+};
 
 export default Info;

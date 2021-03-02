@@ -117,6 +117,39 @@ const App = () => {
           <Route path="/paivakoti">
             <Kindergarten/>
           </Route>
+          <Route path="/ala-aste/alku">
+            <Child component="ElementaryIntro" returnUrl="/ala-aste"/>
+          </Route>
+          <Route path="/ala-aste/lotta">
+            <ColoringImage image={coloringGirl} returnUrl="/ala-aste"/>
+          </Route>
+          <Route path="/ala-aste/harmonia">
+            <ColoringImage image={coloringMouse} returnUrl="/ala-aste"/>
+          </Route>
+          <Route path="/ala-aste/oodi">
+            <ColoringImage image={coloringSquirrel} returnUrl="/ala-aste"/>
+          </Route>
+          <Route path="/ala-aste/hiihtomerkki">
+            <Child component="ElementarySkiBadge" returnUrl="/ala-aste"/>
+          </Route>
+          <Route path="/ala-aste/talkoomerkki">
+            <Child component="ElementaryBeeBadge" returnUrl="/ala-aste"/>
+          </Route>
+          <Route path="/ala-aste/resepti">
+            <Child component="ElementaryBreadRecipe" returnUrl="/ala-aste"/>
+          </Route>
+          <Route path="/ala-aste/posti">
+            <Child component="ElementaryMailPile" returnUrl="/ala-aste"/>
+          </Route>
+          <Route path="/ala-aste/teatterilupa">
+            <Child component="ElementaryTheatrePermit" returnUrl="/ala-aste"/>
+          </Route>
+          <Route path="/ala-aste/lottamerkki">
+            <Child component="ElementaryLottaPin" returnUrl="/ala-aste"/>
+          </Route>
+          <Route path="/ala-aste/koodi">
+            <Child component="ElementaryCode" returnUrl="/ala-aste"/>
+          </Route>
           <Route path="/ala-aste">
             <Elementary/>
           </Route>

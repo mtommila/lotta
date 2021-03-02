@@ -69,3 +69,46 @@
 .highschool {
   border-color: purple;
 }
+
+.sunholder {
+  position: relative;
+}
+
+@keyframes sunrolling {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(180deg); }
+}
+
+.sun-anime {
+  margin-top: -6.5em;
+  animation: sunrolling 30s infinite;
+}
+
+.sun-light {
+  position: absolute;
+  top: -1em;
+  left: 6.25em;
+  width: 0.5em;
+  height: 2em;
+}
+
+.sun-light b,
+.sun-light s {
+  position: absolute;
+  top: 7em;
+  left: -0.25em;
+  width: 1em;
+  height: 2em;
+  background: yellow;
+}
+
+.sun-light s {
+  top: auto;
+  bottom: 7em;
+}
+
+@for $i from 2 through 10 {
+  .sun-light:nth-child(10n+#{$i}) {
+    transform: rotate(#{($i - 1) * 18}deg);
+  }
+}

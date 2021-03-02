@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
 import translate from './translate';
-import './Lotta.css';
+import './Lotta.scss';
 
 const Lotta = () => {
   const intl = useIntl();
@@ -13,8 +13,20 @@ const Lotta = () => {
       */}
       <div className="row">
         <Link to="/tervetuloa">
-          <div className="circle sun">
-            {translate('welcome_linktext')}
+          <div className="sunholder">
+            <div className="circle sun">
+              {translate('welcome_linktext')}
+            </div>
+            <div className="sun-anime">
+              {
+                [...Array(10)].map((value, index) =>
+                  <div className="sun-light" key={index}>
+                    <b></b>
+                    <s></s>
+                  </div>,
+                )
+              }
+            </div>
           </div>
         </Link>
         <Link to="/info">

@@ -8,37 +8,51 @@ const ElementarySkiBadge_fi = () => {
       <p><mark>“Mikä tuolla matkalaukun pohjalla kiiltää ja kimaltaa?”, Oodi-orava ihmettelee. Oodi poimii kullanvärisen merkin käpäliinsä ja ihastuu siitä roikkuviin käpyihin. Yhdessä Oodi, Lotta ja Harmonia tutkivat matkalaukusta löytynyttä, hienoa korua. He pohtivat, mistäköhän Lotan isoisoäiti on tuollaisen kultaisen aarteen saanut.</mark></p>
       <p><strong>Lotta Svärdin kultainen hiihto- ja kävelymerkki</strong></p>
       <img src={skiBadge} alt={translate('ski_badge')}/>
-      <p><em>Aivan kuten nykyisinkin, myös Lotta Svärd -järjestössä katsottiin, että hyvä fyysinen ja henkinen kunto paransivat ihmisten terveyttä ja elämänlaatua. Liikkumista kannustettiin eri tasoisin kuntomerkein. Isoilla lotilla oli oma hiihto- ja kävelymerkki, jonka sai omakseen suorittamalla tietyn haasteen. Paras oli kultainen kävelymerkki, josta roikkui kolme kultaista käpyä.</em></p>
-      <p>(<a href="https://www.nostalgisetnaiset.fi/sananen-lottajarjeston-merkeista/">Sananen Lottajärjestön merkeistä... - Nostalgiset Naiset</a>)<br /><br /><strong>Pohdinta-/Tehtävävinkkejä:</strong></p>
+      <p>Aivan kuten nykyisinkin, myös Lotta Svärd -järjestössä katsottiin, että hyvä fyysinen ja henkinen kunto paransivat ihmisten terveyttä ja elämänlaatua. Liikkumista kannustettiin eri tasoisin kuntomerkein. <br /> Isoilla lotilla oli oma hiihto- ja kävelymerkki, jonka sai omakseen suorittamalla tietyn haasteen. Paras oli kultainen kävelymerkki, josta roikkui kolme kultaista käpyä.</p>
+      <p><strong>Pohdinta-/Tehtävävinkkejä:</strong></p>
       <ul>
-        <li>Suunnitelkaa ryhmässä yhteinen/jokaisen oma kuntomerkki. Mitä suunnittelussa tulisi ottaa huomioon? Esimerkiksi miten ja mihin se voidaan kiinnittää, mistä materiaalista, millä välineillä ja millaisin työtavoin sitä voidaan työstää ja toteuttaa? (<em>huom! monimateriaalisuus ja kierrätysmateriaalien hyödyntäminen</em>)</li>
+        <li>Suunnitelkaa luokan yhteinen/ jokaisen oma kuntomerkki. Mitä suunnittelussa tulisi ottaa huomioon? Esimerkiksi miten ja mihin se voidaan kiinnittää, mistä materiaalista (huom! monimateriaalisuus ja kierrätysmateriaalien hyödyntäminen), millä välineillä ja millaisin työtavoin sitä voidaan työstää ja toteuttaa?</li>
       </ul>
       <ul>
-        <li>Miten voit esimerkiksi tehdä näitä merkkejä?</li>
+        <li>Miten voit esimerkiksi tehdä näitä merkkejä?
+          <ul>
+            <li>piirtämällä tai maalaamalla (Merkit voidaan leikata ja laminoida, jotta ne kestävät paremmin käyttöä.)</li>
+            <li>askartelemalla (2- tai 3-ulotteisesti mm. savesta, pahvista, wc-rullista, luonnonmateriaaleista esim. punomalla heiniä/oksia)</li>
+            <li>ompelemalla (huovasta, kankaista)</li>
+            <li>työstämällä merkin puusta tai pakottamalla metallista tai vaikka kokeilla 3D-tulostinta merkin luomiseen, ja harjoitella samalla esimerkiksi Tinkercad-ohjelman käyttöä merkin suunnittelussa.</li>
+            <li>huom! monimateriaalisuus ja kierrätysmateriaalien hyödyntäminen</li>
+          </ul>
+        </li>
       </ul>
       <ul>
-        <li>piirtämällä tai maalaamalla (laminoimalla ne kestävät paremmin käyttöä)</li>
-        <li>askartelemalla (2- tai 3-ulotteisesti mm. savesta, pahvista, wc-rullista, luonnonmateriaaleista esim. punomalla heiniä/oksia)</li>
-        <li>ompelemalla (huovasta, kankaista)</li>
+        <li>Miettikää yhdessä minkä liikuntataidon/-taitoja oppilaat haluaisivat opetella.</li>
       </ul>
-      <p><em>Huom! monimateriaalisuus ja kierrätysmateriaalien hyödyntäminen</em></p>
+      <p>Mistä liikuntamuodoista/liikuntasuorituksista merkin voisi saada? Esim.kuperkeikka, kärrynpyörä jne, sisä- tai ulkoliikuntaradan suorittaminen, sovitun mittaisen reitin käveleminen/juokseminen</p>
       <ul>
-        <li>Miettikää yhdessä minkä liikuntataidon/-taitoja ryhmän lapset haluaisivat opetella.</li>
-      </ul>
-      <p>Mistä liikuntamuodoista merkin voisi saada? Esim. sisä- tai ulkoliikuntaradan suorittaminen, kantapäillä kävely, varpailla kävely, kuperkeikka, sovitun mittaisen reitin kävely/juoksu/hyppely.</p>
-      <ul>
-        <li>Pitäkää päiväkodin muille ryhmille liikuntatuokio, jossa taitoa opetellaan, tai tehkää heille liikuntarata sisälle tai ulos jne.</li>
+        <li>Aseta itsellesi esim. 1-5 omaa liikuntatavoitetta.</li>
       </ul>
       <ul>
-        <li>Pitäkää päiväkodin yhteinen ulkoilupäivä, jossa on erilaisia toimintapisteitä, joiden tehtäviä suorittamalla voi ansaita oman kuntomerkin.</li>
+        <li>Pitäkää koulun muille luokille liikuntatuokio, jossa taitoa opetellaan tai tehkää heille liikuntarata sisälle tai ulos jne.</li>
       </ul>
       <ul>
-        <li>Toimintaradan/-tuokion voi pitää vaikka metsässä/päiväkodin pihalla ja pohtia, mikä liikuntamuoto siellä olisi se, josta kuntomerkin saa (luontoparkour, tasohyppelypeli).</li>
+        <li>Antakaa oppilaille “kotitehtäväksi” pitää kotona joku vastaavanlainen liikuntatuokio, josta sisarukset ja vanhemmat voivat ansaita omat kuntomerkkinsä. Oppilaat voivat koulussa askarrella merkit valmiiksi.</li>
       </ul>
       <ul>
-        <li>Antakaa lapsille “kotitehtäväksi” pitää kotona joku vastaavanlainen liikuntatuokio, josta sisarukset ja vanhemmat voivat ansaita omat kuntomerkkinsä. Lapset voivat päiväkodissa askarrella merkit valmiiksi.</li>
+        <li>Pitäkää koulun yhteinen ulkoilupäivä, jossa on erilaisia toimintapisteitä, joita suorittamalla voi ansaita oman kuntomerkin.</li>
       </ul>
-      <p>Tehtäviin voi liittää mukaan lähiympäristöä, luontoretkiä. Tärkeintä on huomioida, että kaikki pääsevät osallistumaan ja tekemään yhdessä ja erikseen, isommassa ja pienemmässä ryhmässä, omien taitojensa mukaan.</p>
+      <ul>
+        <li>Pitäkää eri teemoilla välituntimaratoneja (esim. sovittu kierros=yksi piste luokalle/henkilölle). Maratoneja voi pitää kävellen, juosten, hiihtäen, luistellen tms.</li>
+      </ul>
+      <ul>
+        <li>Toimintaradan/tuokion voi pitää vaikka metsässä/koulun pihalla ja pohtia, mikä liikuntamuoto siellä olisi se, josta kuntomerkin saa (luontoparkkour, tasohyppelypeli).</li>
+      </ul>
+      <ul>
+        <li>Haasta toinen luokka/koulu tms., tee haastevideo ja lähetä se muille (taukojumppavideo, tanssiesitys). Mitä sosiaalisia medioita/alustoja voisi käyttää videoiden toteuttamiseen myös etäopiskelun aikana? Miten näillä voisi samalla lisätä yhteisöllisyyttä etäopiskeluaikana? Mitä tietosuoja-asioita on huomioitava kuvia ja videoita julkaistaessa?</li>
+      </ul>
+      <ul>
+        <li>Pitäkää vanhuksille liikuntatuokio tai tehkää liikuntahetkestä striimaus.</li>
+      </ul>
+      <p>Tehtäviin voi liittää/yhdistää mukaan lähiympäristöä, luontoretkiä. Tärkeintä on huomioida, että kaikki pääsevät osallistumaan ja tekemään yhdessä ja erikseen, isommassa ja pienemmässä ryhmässä omien taitojensa mukaan. Painopisteenä myös isojen ja pienten oppilaiden yhteistoiminta ja toisen auttaminen/opettaminen.</p>
       <p><strong>KOODITEHTÄVÄ 1.: Minkä ison kirjaimen löydät merkistä?</strong></p>
     </div>
   );

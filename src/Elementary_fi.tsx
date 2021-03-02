@@ -13,36 +13,52 @@ const Elementary_fi = () => {
   return (
     <div>
       <h1>Ullakon salaisuus -seikkailu</h1>
-      <p><strong>Lotan mummolan pimeällä ullakolla on vanha matkalaukku, johon kukaan ei ole saanut koskea. Kenen tuo matkalaukku on ja mitä siellä on sisällä? Kiivetkää ullakolle Lotta-tytön kanssa ja selvittäkää yhdessä Ullakon salaisuus lapsiryhmänne kanssa. Apureina teillä on lisäksi ullakolla asuvat Harmonia-Hiiri ja Oodi-Orava. </strong></p>
+      <p><strong>Lotan isoisoäidin pimeällä ullakolla on vanha matkalaukku, johon kukaan ei saa koskea. Kenen tuo matkalaukku on, ja mitä siellä on sisällä? Kiivetkää ullakolle Lotta-tytön kanssa, ja selvittäkää yhdessä Ullakon salaisuus lapsiryhmänne/luokkanne kanssa. Apureina teillä on nuoremmille lapsille tarkoitetuissa osioissa lisäksi ullakolla asuvat Harmonia-Hiiri ja Oodi-Orava. </strong></p>
       <img className={styles.coloring} src={girl} alt={translate('lotta')}/>
       <img className={styles.coloring} src={mouse} alt={translate('harmonia')}/>
       <img className={styles.coloring} src={squirrel} alt={translate('oodi')}/>
-      <p>Lähtekää mukaan selvittämään, mikä Ullakon salaisuus on. Samalla tavoitteena on tutustua ja oppia asioita mm. Suomen historiasta, perinteistä ja kulttuurista erilaisten toiminnallisten tehtävien kautta, joita voitte yhdessä tutkia, suunnitella ja toteuttaa kaikkia osallistaen.Tämän tehtävävinkkipaketin ideoinnin tavoitteena on ollut huomioida mahdollisimman paljon laaja-alaisen osaamisen eri osa-alueita. Paketista löytyy kolme eri osiota (päiväkoti, ala- ja yläkoulu) , joiden tehtävät on suunnattu eri ikäryhmille. Kaikista osioista voi vapaasti valita tehtäviä omaan opetukseen.</p>
+      <p>Lähtekää mukaan selvittämään, mikä Ullakon salaisuus on. Samalla tavoitteena on tutustua ja oppia asioita mm. Suomen historiasta, perinteistä ja kulttuurista erilaisten toiminnallisten tehtävien kautta, joita opettajat voivat yhdessä lasten kanssa tutkia, suunnitella ja toteuttaa kaikkia osallistaen.Tämän tehtävävinkkipaketin ideoinnin tavoitteena on ollut huomioida mahdollisimman paljon laaja-alaisen osaamisen eri osa-alueita. Paketista löytyy kolme eri osiota, joiden tehtävät on suunnattu eri ikäryhmille:</p>
       <p><mark>Viiden osion lopusta löytyy lisäksi kooditehtävä. Koodin ratkaistuasi paljastuu lopulta Ullakon perimmäinen salaisuus. Järjestäkää selvittämänne koodikirjaimet niin, että niistä muodostuu sana. Laittakaa tämä sana matkalaukussa olevaan koodille varattuun kohtaan.</mark></p>
-      <p><strong>Päiväkodin Ullakon salaisuus -seikkailu alkaa tästä: (tämä lause tulee matkalaukkuun yhteen klikkauspompulaksi) =&gt;aukeaa sivu, jossa hahmot ja hahmotehtävät sekä alkutarina</strong></p>
+      <p><strong>Alakoulun Ullakon salaisuus -seikkailu alkaa tästä:</strong></p>
       <Link to="/ala-aste/lotta"><img className={styles.coloring} src={coloringGirl} alt={translate('coloring_image')}/></Link>
       <Link to="/ala-aste/harmonia"><img className={styles.coloring} src={coloringMouse} alt={translate('coloring_image')}/></Link>
       <Link to="/ala-aste/oodi"><img className={styles.coloring} src={coloringSquirrel} alt={translate('coloring_image')}/></Link>
-      <p>Ennen seikkailuun lähtöä jokainen voi luoda itselleen oman matkaoppaansa tai matkakaverinsa. Vain mielikuvitus on rajana, kuinka hahmot voidaan toteuttaa ja koristella. Hahmoiksi voit valita Lotan, Oodin tai Harmonian, tai sitten keksiä itse jonkun ihan oman. <br /><br /> Hahmoja voi valmistaa:</p>
+      <p>Ennen seikkailuun lähtöä jokainen voi luoda itselleen oman matkaoppaansa tai matkakaverinsa. Vain mielikuvitus on rajana, kuinka hahmot voidaan toteuttaa ja koristella. Hahmot voivat olla joko samat kuin materiaalipaketissa, tai sitten hahmoksi voi valita toisen tai keksiä vallan itse jonkun ihan muunlaisen.</p>
       <ul>
         <li>piirtämällä</li>
-        <li>maalaamalla (laminoimalla ne kestävät paremmin käyttöä)</li>
-        <li>askartelemalla (2- tai 3-ulotteisesti mm. savesta, pahvista, wc-rullista, luonnonmateriaaleista)</li>
-        <li>ompelemalla (huovasta, kankaista, vanhoista sukista, sormikkaista ja lapasista)</li>
-        <li>työstämällä puusta (vaneri + lehtisaha, lauta + saha, naulat, vasara + monimateriaalia koristeeksi)</li>
       </ul>
-      <p>Ennen projektin alkua/seikkailulle lähtöä voi olla hyvä pohtia omassa lapsiryhmässä mm. seuraavanlaisia asioita:</p>
       <ul>
-        <li>Mieti, millaisen matkakaverin haluaisit ja tarvitsisit mukaasi tehtävien suorittamiseen? Miksi on hyvä, jos joku on mukana? Mitä turvallisuusasioita ja itsestään huolehtimisen taitoja olisi hyvä tietää ja osata? Mitä muuta ottaisit mukaasi, kun lähdet seikkailuun/ratkaisemaan tehtäviä? Mitä on otettava huomioon, ennen kuin pakkaa mitään mukaan?</li>
+        <li>maalaamalla (Hahmot voidaan leikata ja laminoida, jotta ne kestävät paremmin käyttöä.)</li>
       </ul>
-      <p><em>Tässä kohtaa keskustelua voi halutessaan laajentaa ylipäätään siihen, miten matkalle lähtöön pitää valmistautua.</em></p>
+      <ul>
+        <li>askartelemalla (2- tai 3-ulotteisesti mm. savesta, pahvista, wc-rullista, luonnonmateriaaleista)</li>
+      </ul>
+      <ul>
+        <li>ompelemalla (huovasta, kankaista, vanhoista sukista, sormikkaista ja lapasista)</li>
+      </ul>
+      <ul>
+        <li>työstämällä puusta hahmon (vaneri + lehtisaha, lauta + saha, naulat, vasara + monimateriaalia koristeeksi)</li>
+      </ul>
+      <ul>
+        <li>tutustukaa johonkin suunnitteluohjelmaan (esim. Tinkercad) ja toteuttakaa hahmot 3D-tulostuksena</li>
+      </ul>
+      <ul>
+        <li>luokaa virtuaalinen hahmo, esim. sähköiseen portfolioon liitettäväksi</li>
+      </ul>
+      <p>Ennen projektin alkua/seikkailulle lähtöä voi olla hyvä pohtia omassa luokassa mm. seuraavanlaisia asioita:</p>
+      <ul>
+        <li>Mieti, millaisen matkakaverin haluaisit ja tarvitsisit mukaasi tehtävien suorittamiseen? Miksi on hyvä, jos joku on mukana? Mitä turvallisuusasioita ja itsestään huolehtimisen taitoja olisi hyvä tietää ja osata? Mitä muuta ottaisit mukaasi, kun lähdet seikkailuun/ratkaisemaan tehtäviä? Mitä on otettava huomioon, ennen kuin pakkaa mitään mukaan? Tässä kohtaa keskustelua voi halutessaan laajentaa ylipäätään siihen, miten matkalle lähtöön pitää valmistautua.</li>
+      </ul>
       <ul>
         <li>Onko matkakaverillasi kenties joitain erikoisosaamisia tai -taitoja? Entäpä sinulla? Mitä taitoja sinulla on? Mitä taidot oikeastaan tarkoittavat? Miksi tarvitsemme erilaisia taitoja? Onko meillä jokin taito heti kun synnymme? Entä ennen sitä? Voiko taidon menettää?</li>
-        <li>Onko taitoja, joita haluaisit seikkailun aikana harjoitella?</li>
-        <li>Voit myös nimetä matkakaverisi ja miettiä, kuinka olet häneen tutustunut, löytänyt vai löysikö hän sinut? <strong>Meillä jokaisella on oma tarinamme, historia. </strong>Mikä on sinun historiasi?</li>
       </ul>
-      <p>Näitä kysymyksiä voitte käsitellä ryhmässä haluamallanne tavalla, esim. keskustelemalla, saduttamalla, piirtämällä, liikkumalla, musiikin/laulujen avulla.</p>
-      <p>Pohtikaa ja päättäkää yhdessä myös, millä tavalla aiotte dokumentoida ryhmänne matkaa ullakolla.</p>
+      <ul>
+        <li>Onko taitoja, joita haluaisit seikkailun/projektin aikana harjoitella?</li>
+      </ul>
+      <ul>
+        <li>Voit myös nimetä matkakaverisi ja miettiä, kuinka olet häneen tutustunut, löytänyt vai löysikö hän sinut? Meillä jokaisella on oma tarinamme, historia. Mikä on sinun historiasi? Tee oma sukupuusi.</li>
+      </ul>
+      <p>Näitä kysymyksiä voitte käsitellä luokassa haluamallanne tavalla, esim. keskustelemalla, saduttamalla, piirtämällä, liikkumalla, musiikin/laulujen avulla, etsimällä tarvitsemaasi tietoa eri tietolähteistä</p>
     </div>
   );
 };

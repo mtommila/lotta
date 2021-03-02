@@ -1,13 +1,28 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import translate from './translate';
+import './Child.css';
+import girl from './coloring_girl_color.jpg';
+import mouse from './coloring_mouse_color.jpg';
+import squirrel from './coloring_squirrel_color.jpg';
+import coloringGirl from './coloring_girl.jpg';
+import coloringMouse from './coloring_mouse.jpg';
+import coloringSquirrel from './coloring_squirrel.jpg';
 
 const Kindergarten_fi = () => {
   return (
     <div>
       <h1>Ullakon salaisuus -seikkailu</h1>
       <p><strong>Lotan mummolan pimeällä ullakolla on vanha matkalaukku, johon kukaan ei ole saanut koskea. Kenen tuo matkalaukku on ja mitä siellä on sisällä? Kiivetkää ullakolle Lotta-tytön kanssa ja selvittäkää yhdessä Ullakon salaisuus lapsiryhmänne kanssa. Apureina teillä on lisäksi ullakolla asuvat Harmonia-Hiiri ja Oodi-Orava. </strong></p>
+      <img className="coloring" src={girl} alt={translate('lotta')}/>
+      <img className="coloring" src={mouse} alt={translate('harmonia')}/>
+      <img className="coloring" src={squirrel} alt={translate('oodi')}/>
       <p>Lähtekää mukaan selvittämään, mikä Ullakon salaisuus on. Samalla tavoitteena on tutustua ja oppia asioita mm. Suomen historiasta, perinteistä ja kulttuurista erilaisten toiminnallisten tehtävien kautta, joita voitte yhdessä tutkia, suunnitella ja toteuttaa kaikkia osallistaen.Tämän tehtävävinkkipaketin ideoinnin tavoitteena on ollut huomioida mahdollisimman paljon laaja-alaisen osaamisen eri osa-alueita. Paketista löytyy kolme eri osiota (päiväkoti, ala- ja yläkoulu) , joiden tehtävät on suunnattu eri ikäryhmille. Kaikista osioista voi vapaasti valita tehtäviä omaan opetukseen.</p>
       <p><mark>Viiden osion lopusta löytyy lisäksi kooditehtävä. Koodin ratkaistuasi paljastuu lopulta Ullakon perimmäinen salaisuus. Järjestäkää selvittämänne koodikirjaimet niin, että niistä muodostuu sana. Laittakaa tämä sana matkalaukussa olevaan koodille varattuun kohtaan.</mark></p>
       <p><strong>Päiväkodin Ullakon salaisuus -seikkailu alkaa tästä: (tämä lause tulee matkalaukkuun yhteen klikkauspompulaksi) =&gt;aukeaa sivu, jossa hahmot ja hahmotehtävät sekä alkutarina</strong></p>
+      <Link to="/paivakoti/lotta"><img className="coloring" src={coloringGirl} alt={translate('coloring_image')}/></Link>
+      <Link to="/paivakoti/harmonia"><img className="coloring" src={coloringMouse} alt={translate('coloring_image')}/></Link>
+      <Link to="/paivakoti/oodi"><img className="coloring" src={coloringSquirrel} alt={translate('coloring_image')}/></Link>
       <p>Ennen seikkailuun lähtöä jokainen voi luoda itselleen oman matkaoppaansa tai matkakaverinsa. Vain mielikuvitus on rajana, kuinka hahmot voidaan toteuttaa ja koristella. Hahmoiksi voit valita Lotan, Oodin tai Harmonian, tai sitten keksiä itse jonkun ihan oman. <br /><br /> Hahmoja voi valmistaa:</p>
       <ul>
         <li>piirtämällä</li>

@@ -15,6 +15,10 @@ import Kindergarten from './Kindergarten';
 import Elementary from './Elementary';
 import Highschool from './Highschool';
 import Child from './Child';
+import ColoringImage from './ColoringImage';
+import coloringGirl from './coloring_girl.jpg';
+import coloringMouse from './coloring_mouse.jpg';
+import coloringSquirrel from './coloring_squirrel.jpg';
 
 const App = () => {
   const [lang, setLang] = React.useState('fi');
@@ -82,6 +86,15 @@ const App = () => {
           </Route>
           <Route path="/paivakoti/alku">
             <Child component="KindergartenIntro" returnUrl="/paivakoti"/>
+          </Route>
+          <Route path="/paivakoti/lotta">
+            <ColoringImage image={coloringGirl} returnUrl="/paivakoti"/>
+          </Route>
+          <Route path="/paivakoti/harmonia">
+            <ColoringImage image={coloringMouse} returnUrl="/paivakoti"/>
+          </Route>
+          <Route path="/paivakoti/oodi">
+            <ColoringImage image={coloringSquirrel} returnUrl="/paivakoti"/>
           </Route>
           <Route path="/paivakoti/hiihtomerkki">
             <Child component="KindergartenSkiBadge" returnUrl="/paivakoti"/>

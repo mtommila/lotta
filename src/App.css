@@ -3,6 +3,19 @@ nav {
   position: absolute;
 }
 
+nav li {
+  list-style: none;
+  background-color: white;
+  border: 0.1em solid black;
+  border-radius: 0.2em;
+  padding: 0.2em;
+}
+
+nav li img {
+  height: 1em;
+  margin-right: 0.2em;
+}
+
 .switcher {
   z-index: 1;
   position: absolute;
@@ -16,6 +29,10 @@ nav {
   border: 0.1em solid black;
   border-radius: 0.2em;
   padding: 0.2em;
+}
+
+.switcher svg {
+  margin-right: 0.2em;
 }
 
 mark {

@@ -2,8 +2,8 @@ import { createIntl, createIntlCache } from 'react-intl';
 
 export const messages: any = {
   fi: {
-    welcome_linktext: 'Tervetuloa ja jotakin',
-    lottainfo_linktext: 'Lisää infoa Lotta-säätiöstä',
+    welcome_linktext: 'Tervetuloa',
+    lottainfo_linktext: 'Lotta Svärd Säätiö',
     homepage_linktext: 'Alkuun',
     kindergarten_linktext: 'Päiväkoti-ikäisille',
     lower_elementary_linktext: 'Ala-asteikäisille',

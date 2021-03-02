@@ -1,18 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
-import translate from './translate';
-import styles from './Info.module.css';
+import translate, {translateComponent} from './translate';
+import styles from './Welcome.module.css';
 
 const Welcome = () => {
+  const WelcomeLang = translateComponent('Welcome');
   return (
     <div>
-      Koko opetusmateriaalia koskeva info. Kenen kanssa yhteistyötä tehty (Lotta säätiö).
-        Miksi tehty?
-        Inspiraatio (maininta oopperasta)
-        Teema Lotta-säätiö 100v
-        Toiminta ideaa
-        yms. yms.
+      <WelcomeLang/>
     </div>
   );
 };

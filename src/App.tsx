@@ -16,6 +16,7 @@ import Elementary from './Elementary';
 import Highschool from './Highschool';
 import Child from './Child';
 import ColoringImage from './ColoringImage';
+import logo from './logo.jpg';
 import coloringGirl from './coloring_girl.jpg';
 import coloringMouse from './coloring_mouse.jpg';
 import coloringSquirrel from './coloring_squirrel.jpg';
@@ -62,19 +63,9 @@ const App = () => {
         <nav>
           <ul>
             <li>
+              <img src={logo} alt={translate('lotta_foundation')}/>
               <Link to="/">{translate('homepage_linktext')}</Link>
             </li>
-            {/*
-            <li>
-              <Link to="/paivakoti">{translate("kindergarten_linktext")}</Link>
-            </li>
-            <li>
-              <Link to="/ala-aste">{translate("lower_elementary_linktext")}</Link>
-            </li>
-            <li>
-              <Link to="/ylaaste">{translate("junior_highschool_linktext")}</Link>
-            </li>
-            */}
           </ul>
         </nav>
         <Switch>

@@ -3,7 +3,7 @@ import Crypto from 'crypto';
 import { Link } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
 import translate from './translate';
-import './Code.css';
+import styles from './Code.module.css';
 
 const Code = () => {
   const [message, setMessage] = React.useState('');
@@ -27,19 +27,19 @@ const Code = () => {
   }
 
   return (
-    <div className="code">
+    <div className={styles.code}>
       {
         message.length > 0 ?
-          <div className="popup">
-            <div className="header">
-              <span className="close" onClick={() => setMessage('')}>×</span>
+          <div className={styles.popup}>
+            <div className={styles.header}>
+              <span className={styles.close} onClick={() => setMessage('')}>×</span>
             </div>
-            <div className="message" dangerouslySetInnerHTML={{__html: message}}/>
+            <div className={styles.message} dangerouslySetInnerHTML={{__html: message}}/>
           </div>
           :
           ''
       }
-      <input className="code" onChange={(event) => checkCode(event.target.value)}/>
+      <input className={styles.code} onChange={(event) => checkCode(event.target.value)}/>
     </div>
   );
 };

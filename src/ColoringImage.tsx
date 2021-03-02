@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
 import translate, {translateComponent} from './translate';
-import './ColoringImage.css';
+import styles from './ColoringImage.module.css';
 
 interface ColoringParams {
   image: string;
@@ -13,9 +13,9 @@ const ColoringImage = (props: ColoringParams) => {
   return (
     <div>
       <div>
-        <img className="coloringfull" src={props.image}/>
+        <img className={styles.full} src={props.image}/>
       </div>
-      <Link to={ props.returnUrl }>{translate('return_linktext')}</Link>
+      <Link to={props.returnUrl}>{translate('return_linktext')}</Link>
     </div>
   );
 };

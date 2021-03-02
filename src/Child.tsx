@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
 import translate, {translateComponent} from './translate';
-import './Child.css';
+import styles from './Child.module.css';
 
 interface ChildParams {
   component: string;
@@ -14,7 +14,7 @@ const Child = (props: ChildParams) => {
   return (
     <div>
       <ChildLang/>
-      <Link to={ props.returnUrl }>{translate('return_linktext')}</Link>
+      <Link to={props.returnUrl}>{translate('return_linktext')}</Link>
     </div>
   );
 };

@@ -79,12 +79,12 @@
   100% { transform: rotate(180deg); }
 }
 
-.sun-anime {
+.sunanimation {
   margin-top: -6.5em;
   animation: sunrolling 30s infinite;
 }
 
-.sun-light {
+.sunlight {
   position: absolute;
   top: -1em;
   left: 6.25em;
@@ -92,8 +92,8 @@
   height: 2em;
 }
 
-.sun-light b,
-.sun-light s {
+.sunlight b,
+.sunlight s {
   position: absolute;
   top: 7em;
   left: -0.25em;
@@ -102,13 +102,13 @@
   background: yellow;
 }
 
-.sun-light s {
+.sunlight s {
   top: auto;
   bottom: 7em;
 }
 
 @for $i from 2 through 10 {
-  .sun-light:nth-child(10n+#{$i}) {
+  .sunlight:nth-child(10n+#{$i}) {
     transform: rotate(#{($i - 1) * 18}deg);
   }
 }

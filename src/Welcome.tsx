@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage, useIntl } from 'react-intl';
 import translate from './translate';
-import './Info.css';
+import styles from './Info.module.css';
 
 const Welcome = () => {
   return (

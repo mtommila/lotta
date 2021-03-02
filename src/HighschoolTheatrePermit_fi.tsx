@@ -5,26 +5,25 @@ import theatrePermit from './theatre_permit.png';
 const HighschoolTheatrePermit_fi = () => {
   return (
     <div>
-      <p><mark>“Hui, mikä tuo on?”, Oodi huudahtaa pelästyneenä. Matkalaukun pohjalta heitä tuijottaa kaksi mustaa silmäaukkoa. Lotta nostaa matkalaukun pohjalta vanhan, kartonkisen naamarin. Hän asettaa sen kasvoilleen. Silloin myös Harmonia pelästyy, ja hypähtää Oodin tuuhean hännän taakse piiloon. “Miau”, sanoo Lotta nauraen.</mark></p>
-      <p><strong>Lupa osallistua teatteriharjoituksiin</strong></p>
+      <p><strong>Lupa mennä teatteriharjoituksiin</strong></p>
       <img src={theatrePermit} alt={translate('theatre_permit')}/>
-      <p> <em>“Pikkulotat kokoontuivat työiltoihin, joissa askartelun ja käsitöiden ohella luettiin ja laulettiin. Tytöt harjoittelivat ja esittivät omissa ja aikuisten iltamissa lauluja, näytelmiä ja runonlausuntaa.” </em>(Pikkulotan leikit, Perinneleikit ry &amp; Lottamuseo, 2017)</p>
+      <p>“ Pikkulotat kokoontuivat työiltoihin, joissa askartelun ja käsitöiden ohella luettiin ja laulettiin. Tytöt harjoittelivat ja esittivät omissa ja aikuisten iltamissa lauluja, näytelmiä ja runonlausuntaa.” (Pikkulotan leikit, Perinneleikit ry &amp; Lottamuseo, 2017)</p>
       <p>“...<em> pikkulotat järjestivät siirtoväen ja reserviläisten lapsille illanviettoja…”</em></p>
       <p>(Pikkulotan leikit, Perinneleikit ry &amp; Lottamuseo, 2017)</p>
-      <p><strong>Pohdinta-/Tehtävävinkkejä:</strong></p>
+      <p><strong> Pohdinta-/Tehtävävinkkejä:</strong></p>
       <ul>
-        <li>Keskustelkaa ryhmässä ovatko oppilaat käyneet teatterissa? Mitä teatteri oikeastaan tarkoittaa? Minkälaisia erityyppisiä teatterimuotoja on olemassa? (esim. nukketeatteri, varjoteatteri, pöytäteatteri jne.)</li>
+        <li>Keskustelkaa luokassa ovatko oppilaat käyneet teatterissa? Mitä teatteri oikeastaan tarkoittaa? Ottakaa selville teatterin historiaa. Minkälaisia erityyppisiä teatterimuotoja on olemassa? (esim. nukketeatteri, varjoteatteri, pöytäteatteri jne.) Mitä teatterityylejä on olemassa?</li>
       </ul>
       <ul>
         <li>Oletko itse esiintynyt joskus jossakin?</li>
       </ul>
       <ul>
-        <li>Suunnitelkaa ja toteuttakaa yhdessä/pienryhmissä joku esitys (nukketeatteri, sorminukketeatteri, näytelmä, video, animaatio tms.).
+        <li>Suunnitelkaa ja toteuttakaa yhdessä/pienryhmissä joku esitys (nukketeatteri, sorminukketeatteri, näytelmä, video, animaatio, musikaali tms.).
           <ul>
-            <li>Pohtikaa yhdessä, mikä on käsikirjoitus. Tehkää itse oma (esim. saduttamalla) tai valitkaa joku tuttu satu, josta esityksen voi tehdä. Onko esityksessä puhetta vai esitetäänkö asiat liikkein, kuvien avulla tai musiikin/äänitehosteiden avulla?</li>
-            <li>Mitä materiaaleja tarvitaan hahmojen valmistamiseen? (parittomat sormikkaat/lapaset, paperi, kartonki, pahvilaatikoiden materiaali, luonnonmateriaalit, muovailuvaha, savi, taikataikina jne) Vai näyttelettekö kenties itse?</li>
+            <li>Pohtikaa yhdessä, mikä on käsikirjoitus. Tehkää itse oma tai valitkaa esim. joku tuttu satu, josta esityksen voi tehdä. Onko esityksessä puhetta vai esitetäänkö asiat liikkein, kuvien avulla tai musiikin/äänitehosteiden avulla?</li>
+            <li>Mitä materiaaleja tarvitaan hahmojen valmistamiseen? Vai näyttelettekö itse?</li>
             <li>Missä esitys esitetään? Miten tehdään lavastukset erityyppisiin teatterimuotoihin? Voisiko esitys olla ulkona?</li>
-            <li>Onko esityksessä musiikkia, äänitehosteita tms? Kuinka niitä saadaan? (kehosoittimilla, soittimilla, itsetehdyillä soittimilla, tietokoneella jne)</li>
+            <li>Onko esityksessä musiikkia, äänitehosteita tms? Kuinka niitä saadaan? (koulun soittimilla, itsetehdyillä soittimilla, tietokoneella jne)</li>
             <li>Pohtikaa kenelle esityksen voisi esittää (esim. oman luokan kesken tai koulun muille luokille, lähialueen vanhainkodeille, lähipäiväkodeille/kouluille, vanhemmille, etänä videon tms. välityksellä).</li>
           </ul>
         </li>
@@ -38,7 +37,6 @@ const HighschoolTheatrePermit_fi = () => {
       <ul>
         <li><a href="https://www.teatterimuseo.fi/"><strong>Teatterimuseo</strong></a></li>
       </ul>
-      <p><strong>KOODITEHTÄVÄ 5.: Kirjain löytyy kirjeessä olevan leiman lyhenteestä.</strong></p>
     </div>
   );
 };

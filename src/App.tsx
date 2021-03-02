@@ -153,6 +153,24 @@ const App = () => {
           <Route path="/ala-aste">
             <Elementary/>
           </Route>
+          <Route path="/ylaaste/hiihtomerkki">
+            <Child component="HighschoolSkiBadge" returnUrl="/ylaaste"/>
+          </Route>
+          <Route path="/ylaaste/talkoomerkki">
+            <Child component="HighschoolBeeBadge" returnUrl="/ylaaste"/>
+          </Route>
+          <Route path="/ylaaste/resepti">
+            <Child component="HighschoolBreadRecipe" returnUrl="/ylaaste"/>
+          </Route>
+          <Route path="/ylaaste/posti">
+            <Child component="HighschoolMailPile" returnUrl="/ylaaste"/>
+          </Route>
+          <Route path="/ylaaste/teatterilupa">
+            <Child component="HighschoolTheatrePermit" returnUrl="/ylaaste"/>
+          </Route>
+          <Route path="/ylaaste/lottamerkki">
+            <Child component="HighschoolLottaPin" returnUrl="/ylaaste"/>
+          </Route>
           <Route path="/ylaaste">
             <Highschool/>
           </Route>

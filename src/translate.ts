@@ -22,6 +22,7 @@ export const messages: any = {
     lotta_pin: 'Lotta-merkki',
     code: '🄺 🄾 🄾 🄳 🄸',
     code_assignment: 'Kooditehtävä',
+    lotta_foundation: 'Lotta Svärd Säätiö',
     return_linktext: 'Takaisin',
   },
   sv: {
@@ -45,6 +46,7 @@ export const messages: any = {
     lotta_pin: 'Och samma på svenska',
     code: '🄺 🄾 🄳',
     code_assignment: 'Och samma på svenska',
+    lotta_foundation: 'Lotta Svärd Stiftelsen',
     return_linktext: 'Tillbaka',
   },
 };

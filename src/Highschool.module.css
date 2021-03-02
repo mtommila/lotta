@@ -1,0 +1,67 @@
+.full {
+  max-height: 100vh;
+  max-width: 100%;
+}
+
+.base {
+  display: inline-block;
+  position: relative;
+}
+
+.background {
+  z-index: -1;
+}
+
+.foreground {
+  position: absolute;
+}
+
+.foreground:hover {
+  transform: scale(1.75);
+  transition: transform 1s;
+}
+
+.cover {
+  background-color: white;
+  border: solid black 0.2em;
+  border: 0.5em solid;
+  border-radius: 50%;
+  height: 8em;
+  width: 8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 10%;
+  left: 45%;
+}
+
+.item1 {
+  top: 40%;
+  left: 10%;
+}
+
+.item2 {
+  top: 45%;
+  left: 40%;
+}
+
+.item3 {
+  top: 50%;
+  left: 68%;
+}
+
+.item4 {
+  top: 65%;
+  left: 43%;
+}
+
+.item5 {
+  top: 49%;
+  left: 5%;
+}
+
+.item6 {
+  top: 65%;
+  left: 67%;
+}

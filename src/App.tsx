@@ -20,7 +20,7 @@ const App = (): JSX.Element => {
   const [lang, setLang] = React.useState('fi');
   return (
     <IntlProvider locale={lang} messages={messages[lang]}>
-      <div className="switcher">
+      <div className="switcher noprint">
         <button
           onClick={() => {
             setLang('fi');
@@ -55,7 +55,7 @@ const App = (): JSX.Element => {
         </button>
       </div>
       <Router>
-        <nav>
+        <nav className="noprint">
           <ul>
             <li>
               <img src={logo} alt={translate('lotta_foundation')}/>

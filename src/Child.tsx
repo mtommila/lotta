@@ -12,7 +12,7 @@ const Child = (props: ChildParams): JSX.Element => {
   return (
     <div className="bodytext">
       <ChildLang/>
-      <span className="backlink"><Link to={props.returnUrl}>{translate('return_linktext')}</Link></span>
+      <span className="backlink noprint"><Link to={props.returnUrl}>{translate('return_linktext')}</Link></span>
     </div>
   );
 };

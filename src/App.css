@@ -60,3 +60,18 @@ mark {
   color: red;
   background-color: white;
 }
+
+.printer {
+  background-color: white;
+  border: 0.1em solid black;
+  border-radius: 0.2em;
+  padding: 0 0.2em;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+@media print {
+  .noprint {
+    display: none;
+  }
+}

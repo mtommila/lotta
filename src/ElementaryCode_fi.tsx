@@ -5,7 +5,7 @@ import translate from './translate';
 const ElementaryCode_fi = (): JSX.Element => {
   return (
     <div>
-      <h2>{translate('code_assignment')}</h2>
+      <h2 className="noprint">{translate('code_assignment')}</h2>
       <Code/>
     </div>
   );

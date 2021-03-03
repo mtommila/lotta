@@ -8,35 +8,7 @@ input.code {
   width: 10em;
   border: 0.2em solid black;
   border-radius: 0.5em;
-}
-
-.popup {
-  z-index: 1;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  top: 4em;
-  border: 0.2em solid gold;
-  border-radius: 0.5em;
-  background-color: white;
-  margin: 1em;
-  padding: 1em;
-}
-
-.header {
-  width: 100%;
-  display: flex;
-  justify-content: right;
-}
-
-.close {
-  width: 1em;
-  border: 0.1em solid crimson;
-  border-radius: 0.25em;
-  margin-top: -0.6em;
-  margin-right: -0.6em;
-  font-size: 2em;
-  cursor: pointer;
+  margin-bottom: 1em;
 }
 
 .message {

@@ -1,20 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FormattedMessage, useIntl } from 'react-intl';
+import {Link} from 'react-router-dom';
 import translate, {translateComponent} from './translate';
-import styles from './Child.module.css';
 
 interface ChildParams {
   component: string;
   returnUrl: string;
 }
 
-const Child = (props: ChildParams) => {
+const Child = (props: ChildParams): JSX.Element => {
   const ChildLang = translateComponent(props.component);
   return (
-    <div>
+    <div className="bodytext">
       <ChildLang/>
-      <Link to={props.returnUrl}>{translate('return_linktext')}</Link>
+      <span className="backlink"><Link to={props.returnUrl}>{translate('return_linktext')}</Link></span>
     </div>
   );
 };

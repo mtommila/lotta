@@ -1,4 +1,4 @@
-import { createIntl, createIntlCache } from 'react-intl';
+import {createIntl, createIntlCache} from 'react-intl';
 
 export const messages: any = {
   fi: {
@@ -61,22 +61,21 @@ let intl = createIntl(
   cache,
 );
 
-export const changeLanguage = (lang: string) => {
-  const newIntl = createIntl(
+export const changeLanguage = (lang: string): void => {
+  intl = createIntl(
     {
       locale: lang,
       messages: messages[lang],
     },
     cache,
   );
-  intl = newIntl;
 };
 
-const translate = (id: string, values?: Record<string, string>) => {
+const translate = (id: string, values?: Record<string, string>): string => {
   return intl.formatMessage({ id }, values);
 };
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-export const translateComponent = (id: string) => require('./' + id + '_' + intl.locale).default;
+export const translateComponent = (id: string): any => require('./' + id + '_' + intl.locale).default;
 
 export default translate;

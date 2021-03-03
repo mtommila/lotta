@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Kindergarten_sv = () => {
+const Kindergarten_sv = (): JSX.Element => {
   return (
     <div>
       <p>Innan ett äventyr påbörjas kan alla skapa sin egen reseguide eller resekamrat. Endast fantasin är gränsen för hur karaktärerna kan utföras och dekoreras. Karaktärerna kan antingen vara desamma som i materialpaketet eller så kan du välja en annan karaktär eller komma på något helt annat för dig själv.</p>

@@ -1,7 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FormattedMessage, useIntl } from 'react-intl';
-import translate, {translateComponent} from './translate';
+import {Link} from 'react-router-dom';
+import translate from './translate';
 import styles from './ColoringImage.module.css';
 
 interface ColoringParams {
@@ -9,13 +8,13 @@ interface ColoringParams {
   returnUrl: string;
 }
 
-const ColoringImage = (props: ColoringParams) => {
+const ColoringImage = (props: ColoringParams): JSX.Element => {
   return (
-    <div>
-      <div>
+    <div className="bodytext">
+      <div className="center">
         <img className={styles.full} src={props.image}/>
       </div>
-      <Link to={props.returnUrl}>{translate('return_linktext')}</Link>
+      <span className="backlink"><Link to={props.returnUrl}>{translate('return_linktext')}</Link></span>
     </div>
   );
 };

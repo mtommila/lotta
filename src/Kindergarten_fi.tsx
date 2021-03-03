@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import translate from './translate';
 import styles from './Child.module.css';
 import girl from './coloring_girl_color.jpg';
 import mouse from './coloring_mouse_color.jpg';
 import squirrel from './coloring_squirrel_color.jpg';
-import coloringGirl from './coloring_girl.jpg';
-import coloringMouse from './coloring_mouse.jpg';
-import coloringSquirrel from './coloring_squirrel.jpg';
+import coloringGirl from './coloring_girl.png';
+import coloringMouse from './coloring_mouse.png';
+import coloringSquirrel from './coloring_squirrel.png';
 
-const Kindergarten_fi = () => {
+const Kindergarten_fi = (): JSX.Element => {
   return (
     <div>
       <h1>Ullakon salaisuus -seikkailu</h1>
@@ -19,7 +19,7 @@ const Kindergarten_fi = () => {
       <img className={styles.coloring} src={squirrel} alt={translate('oodi')}/>
       <p>Lähtekää mukaan selvittämään, mikä Ullakon salaisuus on. Samalla tavoitteena on tutustua ja oppia asioita mm. Suomen historiasta, perinteistä ja kulttuurista erilaisten toiminnallisten tehtävien kautta, joita voitte yhdessä tutkia, suunnitella ja toteuttaa kaikkia osallistaen.Tämän tehtävävinkkipaketin ideoinnin tavoitteena on ollut huomioida mahdollisimman paljon laaja-alaisen osaamisen eri osa-alueita. Paketista löytyy kolme eri osiota (päiväkoti, ala- ja yläkoulu) , joiden tehtävät on suunnattu eri ikäryhmille. Kaikista osioista voi vapaasti valita tehtäviä omaan opetukseen.</p>
       <p><mark>Viiden osion lopusta löytyy lisäksi kooditehtävä. Koodin ratkaistuasi paljastuu lopulta Ullakon perimmäinen salaisuus. Järjestäkää selvittämänne koodikirjaimet niin, että niistä muodostuu sana. Laittakaa tämä sana matkalaukussa olevaan koodille varattuun kohtaan.</mark></p>
-      <p><strong>Päiväkodin Ullakon salaisuus -seikkailu alkaa tästä: (tämä lause tulee matkalaukkuun yhteen klikkauspompulaksi) =&gt;aukeaa sivu, jossa hahmot ja hahmotehtävät sekä alkutarina</strong></p>
+      <p><strong>Päiväkodin Ullakon salaisuus -seikkailu alkaa tästä:</strong></p>
       <Link to="/paivakoti/lotta"><img className={styles.coloring} src={coloringGirl} alt={translate('coloring_image')}/></Link>
       <Link to="/paivakoti/harmonia"><img className={styles.coloring} src={coloringMouse} alt={translate('coloring_image')}/></Link>
       <Link to="/paivakoti/oodi"><img className={styles.coloring} src={coloringSquirrel} alt={translate('coloring_image')}/></Link>

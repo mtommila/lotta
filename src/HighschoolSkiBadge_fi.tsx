@@ -2,11 +2,11 @@ import React from 'react';
 import translate from './translate';
 import skiBadge from './ski_badge.png';
 
-const HighschoolSkiBadge_fi = () => {
+const HighschoolSkiBadge_fi = (): JSX.Element => {
   return (
     <div>
       <p><strong>Kultainen hiihto- ja kävelymerkki</strong></p>
-      <img src={skiBadge} alt={translate('ski_badge')}/>
+      <img className="large" src={skiBadge} alt={translate('ski_badge')}/>
       <p>Aivan kuten nykyisinkin, myös Lotta Svärd -järjestössä katsottiin, että hyvä fyysinen ja henkinen kunto paransivat ihmisten terveyttä ja elämänlaatua. Liikkumista kannustettiin eri tasoisin kuntomerkein. <br /> Isoilla lotilla oli oma hiihto- ja kävelymerkki, jonka sai omakseen suorittamalla tietyn haasteen. Paras oli kultainen kävelymerkki, josta roikkui kolme kultaista käpyä. <br /><br /><strong>Pohdinta-/Tehtävävinkkejä:</strong></p>
       <ul>
         <li>Suunnittele itse tai pienessä ryhmässä oma kuntomerkki. Mitä suunnittelussa tulisi ottaa huomioon? Esimerkiksi miten ja mihin se voidaan kiinnittää, mistä materiaalista (huom! monimateriaalisuus ja kierrätysmateriaalien hyödyntäminen), millä välineillä ja millaisin työtavoin sitä voidaan työstää ja toteuttaa? Mistä liikuntamuodoista tällaisen merkin voisi saada?</li>

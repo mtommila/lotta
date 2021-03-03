@@ -2,15 +2,15 @@ import React from 'react';
 import translate from './translate';
 import lottaPin from './lotta_pin.png';
 
-const HighschoolLottaPin_fi = () => {
+const HighschoolLottaPin_fi = (): JSX.Element => {
   return (
     <div>
       <p><strong>Lottamerkki</strong></p>
-      <img src={lottaPin} alt={translate('lotta_pin')}/>
+      <img className="large" src={lottaPin} alt={translate('lotta_pin')}/>
       <p>Lottamerkin “kuvio oli koko Lotta Svärd -järjestön tunnus. Tunnuksen suunnittelijaksi pyydettiin Akseli Gallen-Kallelaa (1865–1931), mutta lopullisen merkin suunnitteli taiteilija Eric Vasström (1887–1958). Vuonna 1921 keskusjohtokunta hyväksyi tunnuksen, jossa sinistä hakaristiä ja Lotta-Svärd -tekstiä reunustivat neljä heraldista ruusua. Vuonna 1921 keskusjohtokunta hyväksyi tunnuksen, jossa sinistä hakaristiä ja Lotta-Svärd -tekstiä reunustivat neljä heraldista ruusua.</p>
       <p>Hakaristi on tuhansia vuosia vanha maailmanlaajuinen hyvän onnen symboli. Vanhimmat hakaristeillä koristetut esineet on valmistettu 6000–5000 eaa. Pohjois-Mesopotamian ja nykyisen Tšekin alueilla. Suomessa hakaristi esiintyi rautakauden esineistössä, keskiaikaisissa kirkoissa (esim. Turun Maarian kirkko) sekä 1900-luvun alun koristeaiheena.</p>
       <p>Hakaristiä käytettiin Suomen puolustusvoimissa vuosina 1918–1945 lentokoneiden ja panssariajoneuvojen kansallistunnuksena.</p>
-      <p>Ruusu on heraldiikassa hyvin yleinen ja laajalle levinnyt symboli. Ruusu symboloi onnea ja rakkautta.” <a href="https://perinne.fi/lotta-svard-jarjesto/lisatietoa/lottamerkki/">Lottamerkki | Suojeluskunnat ja Lotta Svärd (perinne.fi)</a></p>
+      <p>Ruusu on heraldiikassa hyvin yleinen ja laajalle levinnyt symboli. Ruusu symboloi onnea ja rakkautta.” <a target="_blank" rel="noreferrer" href="https://perinne.fi/lotta-svard-jarjesto/lisatietoa/lottamerkki/">Lottamerkki | Suojeluskunnat ja Lotta Svärd (perinne.fi)</a></p>
       <p><strong>Pohdinta-/Tehtävävinkkejä:</strong></p>
       <ul>
         <li>Pohtikaa yhdessä miksi erilaisia merkkejä/symboleja käytetään? Mitä erilaisia merkkejä olet nähnyt, missä ja mitä ne ovat tarkoittaneet?</li>
@@ -46,13 +46,13 @@ const HighschoolLottaPin_fi = () => {
         <li>Jos koulussa toimii vuosittain joku säännöllinen kerho/kerhoja, niille voisi logokilpailun avulla suunnitella omat logot.</li>
       </ul>
       <ul>
-        <li>Suunnitelkaa/toteuttakaa koululle oma logo logokilpailun avulla.</li>
+        <li>Suunnitelkaa/toteuttakaa koululle oma logo logokilpailun avulla.</li><br/>
+        <a target="_blank" rel="noreferrer" href="https://www.designmuseum.fi/fi/muotoilun-tyokaluja-opetukseen/">Designmuseo Muotoilun työkaluja opetukseen (designmuseum.fi)</a>
       </ul>
-      <p><a href="https://www.designmuseum.fi/fi/muotoilun-tyokaluja-opetukseen/">Designmuseo Muotoilun työkaluja opetukseen (designmuseum.fi)</a></p>
       <p>Muita hyviä nettilinkkejä:</p>
-      <p><a href="https://www.museoliitto.fi/museo-opetus">Suomen museoliitto - Opetus</a></p>
-      <p><a href="https://opimuseossa.fi/opimuseossa/index.php?k=12378">https://opimuseossa.fi/opimuseossa/index.php?k=12378</a></p>
-      <p><a href="https://lastenkulttuuri.fi/materiaalit/verkkomateriaalit/">Lastenkulttuurin oppimateriaaleja verkossa - lastenkulttuuri.fi</a></p>
+      <p><a target="_blank" rel="noreferrer" href="https://www.museoliitto.fi/museo-opetus">Suomen museoliitto - Opetus</a></p>
+      <p><a target="_blank" rel="noreferrer" href="https://opimuseossa.fi/opimuseossa/index.php?k=12378">https://opimuseossa.fi/opimuseossa/index.php?k=12378</a></p>
+      <p><a target="_blank" rel="noreferrer" href="https://lastenkulttuuri.fi/materiaalit/verkkomateriaalit/">Lastenkulttuurin oppimateriaaleja verkossa - lastenkulttuuri.fi</a></p>
     </div>
   );
 };

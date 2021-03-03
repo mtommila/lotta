@@ -2,12 +2,12 @@ import React from 'react';
 import translate from './translate';
 import skiBadge from './ski_badge.png';
 
-const ElementarySkiBadge_fi = () => {
+const ElementarySkiBadge_fi = (): JSX.Element => {
   return (
     <div>
       <p><mark>“Mikä tuolla matkalaukun pohjalla kiiltää ja kimaltaa?”, Oodi-orava ihmettelee. Oodi poimii kullanvärisen merkin käpäliinsä ja ihastuu siitä roikkuviin käpyihin. Yhdessä Oodi, Lotta ja Harmonia tutkivat matkalaukusta löytynyttä, hienoa korua. He pohtivat, mistäköhän Lotan isoisoäiti on tuollaisen kultaisen aarteen saanut.</mark></p>
       <p><strong>Lotta Svärdin kultainen hiihto- ja kävelymerkki</strong></p>
-      <img src={skiBadge} alt={translate('ski_badge')}/>
+      <img className="large" src={skiBadge} alt={translate('ski_badge')}/>
       <p>Aivan kuten nykyisinkin, myös Lotta Svärd -järjestössä katsottiin, että hyvä fyysinen ja henkinen kunto paransivat ihmisten terveyttä ja elämänlaatua. Liikkumista kannustettiin eri tasoisin kuntomerkein. <br /> Isoilla lotilla oli oma hiihto- ja kävelymerkki, jonka sai omakseen suorittamalla tietyn haasteen. Paras oli kultainen kävelymerkki, josta roikkui kolme kultaista käpyä.</p>
       <p><strong>Pohdinta-/Tehtävävinkkejä:</strong></p>
       <ul>

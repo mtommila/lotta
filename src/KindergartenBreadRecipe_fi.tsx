@@ -2,17 +2,17 @@ import React from 'react';
 import translate from './translate';
 import breadRecipe from './bread_recipe.png';
 
-const KindergartenBreadRecipe_fi = () => {
+const KindergartenBreadRecipe_fi = (): JSX.Element => {
   return (
     <div>
       <p><mark>Naapurustossa on talkoot. Siellä pidetään juuri ruokataukoa. Makkaroita paistetaan, ja niiden ihana tuoksu leijuu ylös ullakolle saakka. Lotta löytää matkalaukusta vanhan vihon, jota selaa yhdessä Harmonian ja Oodin kanssa. “Ruisnäkkileipä”, lukee Lotta ääneen. “Tämähän on isoisoäidin vanha reseptivihko!” Lotankin vatsa alkaa kurnia.</mark></p>
       <p><strong>Muonitus</strong></p>
-      <img src={breadRecipe} alt={translate('bread_recipe')}/>
+      <img className="large" src={breadRecipe} alt={translate('bread_recipe')}/>
       <p><em>Lottien näkkileipäresepti</em></p>
       <p><em>“Syksyllä 1938 puolustusministeriön sotatalousosastolla suunniteltiin sodanaikaista taloushuoltoa. Suunnittelutyön edetessä huomattiin, että riittävän leipämäärän toimittaminen kenttäarmeijalle olisi mahdotonta, mikäli suurten leipomoiden toiminta häiriintyisi esimerkiksi sähkökatkosten vuoksi. Leivän leivonnan turvaamiseksi pyysi puolustusministeriön sotatalousosasto apua Lottajärjestöltä. Lotat leipoivat leipää ylimääräisten kertausharjoitusten ja talvisodan ajan. Esimerkiksi koko talven 1939 lottapiirit leipoivat leipää yhteensä 81.000 kiloa, alussa jopa 103.000 kiloa päivässä. Tämä valtava leivontaurakka suoritettiin palkattomana lottatyönä. Puolustusvoimat korvasi leivän leivonnasta tulleet muut kustannukset.”</em></p>
-      <p>(<a href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/muonitusjaosto">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo lottasvard.fi</a>)</p>
+      <p>(<a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/muonitusjaosto">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo lottasvard.fi</a>)</p>
       <p><em>Pikkulotilla “muonitusjaostossa työ käsitti ruoan valmistamista, pöydän kattamista ja tarjoilun alkeiden opastusta”.</em></p>
-      <p>(<a href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/pikkulotat">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a>)</p>
+      <p>(<a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/pikkulotat">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a>)</p>
       <p><strong>Pohdinta-/Tehtävävinkkejä:</strong></p>
       <ul>
         <li>Pohtikaa yhdessä ryhmän kanssa Miksi ruokaa syödään/Miksi ruoka on tärkeää?</li>
@@ -21,9 +21,8 @@ const KindergartenBreadRecipe_fi = () => {
             <li>Askartele oma lautasmalli esim. leikkaamalla kuvia lehdistä, piirtämällä itse, muovailemalla taikataikinasta (Taikataikinan ohje löytyy helposti netistä) jne</li>
           </ul>
         </li>
-        <li>Mistä ruokaa saadaan? Tutustukaa eri ruoka-aineiden reitteihin esim. Ruuan reitti -sivuilta:<br /><a href="https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille">https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille</a></li>
-        <li>Lisätään tähän ruuan reitti ihmiskehossa, miten vaikuttaa tms (Tuija etsii) Katso Heurekan sivuilta.</li>
-        <li><a href="https://www.mtvuutiset.fi/artikkeli/tiesitko-naita-kiehtovia-faktoja-matkaa-ruoan-mukana-suusta-vessanponttoon-kiinnita-huomio-lopputulokseen/7948634#gs.sxnqcw">Ihmisen ruoansulatuselimistön toiminta: Tällainen on ruoan matka elimistön läpi - MTVuutiset.fi</a></li>
+        <li>Mistä ruokaa saadaan? Tutustukaa eri ruoka-aineiden reitteihin esim. Ruuan reitti -sivuilta:<br /><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille">https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://www.mtvuutiset.fi/artikkeli/tiesitko-naita-kiehtovia-faktoja-matkaa-ruoan-mukana-suusta-vessanponttoon-kiinnita-huomio-lopputulokseen/7948634#gs.sxnqcw">Ihmisen ruoansulatuselimistön toiminta: Tällainen on ruoan matka elimistön läpi - MTVuutiset.fi</a></li>
       </ul>
       <ul>
         <li>Mitä ruoka-aineita voi kasvattaa itse?

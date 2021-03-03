@@ -1,12 +1,7 @@
 import React from 'react';
-import { IntlProvider } from 'react-intl';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-} from 'react-router-dom';
-import translate, { changeLanguage, messages } from './translate';
+import {IntlProvider} from 'react-intl';
+import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
+import translate, {changeLanguage, messages} from './translate';
 import './App.css';
 import Lotta from './Lotta';
 import Welcome from './Welcome';
@@ -17,11 +12,11 @@ import Highschool from './Highschool';
 import Child from './Child';
 import ColoringImage from './ColoringImage';
 import logo from './logo.jpg';
-import coloringGirl from './coloring_girl.jpg';
-import coloringMouse from './coloring_mouse.jpg';
-import coloringSquirrel from './coloring_squirrel.jpg';
+import coloringGirl from './coloring_girl.png';
+import coloringMouse from './coloring_mouse.png';
+import coloringSquirrel from './coloring_squirrel.png';
 
-const App = () => {
+const App = (): JSX.Element => {
   const [lang, setLang] = React.useState('fi');
   return (
     <IntlProvider locale={lang} messages={messages[lang]}>

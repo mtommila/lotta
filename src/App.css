@@ -35,6 +35,27 @@ nav li img {
   margin-right: 0.2em;
 }
 
+.bodytext {
+  padding: 3em 1em;
+}
+
+.main {
+  padding: 1em;
+}
+
+.center {
+  text-align: center;
+}
+
+img.large {
+  max-width: 100%;
+}
+
+.backlink::before {
+  font-weight: bold;
+  content: "← ";
+}
+
 mark {
   color: red;
   background-color: white;

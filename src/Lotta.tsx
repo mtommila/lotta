@@ -1,16 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FormattedMessage, useIntl } from 'react-intl';
+import {Link} from 'react-router-dom';
 import translate from './translate';
 import styles from './Lotta.module.scss';
 
-const Lotta = () => {
-  const intl = useIntl();
+const Lotta = (): JSX.Element => {
   return (
     <div className={styles.home}>
-      {/*
-      <img className={styles.background} src={background} srcSet={`${background} 4160w, ${background_1920} 1920w, ${background_768} 768w, ${background_320} 320w`} alt=""/>
-      */}
       <div className={styles.row}>
         <Link to="/tervetuloa">
           <div className={styles.sunholder}>

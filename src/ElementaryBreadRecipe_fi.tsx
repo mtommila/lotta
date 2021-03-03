@@ -2,15 +2,15 @@ import React from 'react';
 import translate from './translate';
 import breadRecipe from './bread_recipe.png';
 
-const ElementaryBreadRecipe_fi = () => {
+const ElementaryBreadRecipe_fi = (): JSX.Element => {
   return (
     <div>
       <p>Muonitus</p>
-      <p>“<em>Syksyllä 1938 puolustusministeriön sotatalousosastolla suunniteltiin sodanaikaista taloushuoltoa. Suunnittelutyön edetessä huomattiin, että riittävän leipämäärän toimittaminen kenttäarmeijalle olisi mahdotonta, mikäli suurten leipomoiden toiminta häiriintyisi esimerkiksi sähkökatkosten vuoksi. Leivän leivonnan turvaamiseksi pyysi puolustusministeriön sotatalousosasto apua Lottajärjestöltä. Lotat leipoivat leipää ylimääräisten kertausharjoitusten ja talvisodan ajan. Esimerkiksi koko talven 1939 lottapiirit leipoivat leipää yhteensä 81.000 kiloa, alussa jopa 103.000 kiloa päivässä. Tämä valtava leivontaurakka suoritettiin palkattomana lottatyönä. Puolustusvoimat korvasi leivän leivonnasta tulleet muut kustannukset.</em>” <a href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/muonitusjaosto">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo lottasvard.fi</a></p>
-      <p>Pikkulotilla “<em>muonitusjaostossa työ käsitti ruoan valmistamista, pöydän kattamista ja tarjoilun alkeiden opastusta</em>”.<a href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/pikkulotat">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a></p>
+      <p>“<em>Syksyllä 1938 puolustusministeriön sotatalousosastolla suunniteltiin sodanaikaista taloushuoltoa. Suunnittelutyön edetessä huomattiin, että riittävän leipämäärän toimittaminen kenttäarmeijalle olisi mahdotonta, mikäli suurten leipomoiden toiminta häiriintyisi esimerkiksi sähkökatkosten vuoksi. Leivän leivonnan turvaamiseksi pyysi puolustusministeriön sotatalousosasto apua Lottajärjestöltä. Lotat leipoivat leipää ylimääräisten kertausharjoitusten ja talvisodan ajan. Esimerkiksi koko talven 1939 lottapiirit leipoivat leipää yhteensä 81.000 kiloa, alussa jopa 103.000 kiloa päivässä. Tämä valtava leivontaurakka suoritettiin palkattomana lottatyönä. Puolustusvoimat korvasi leivän leivonnasta tulleet muut kustannukset.</em>” <a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/muonitusjaosto">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo lottasvard.fi</a></p>
+      <p>Pikkulotilla “<em>muonitusjaostossa työ käsitti ruoan valmistamista, pöydän kattamista ja tarjoilun alkeiden opastusta</em>”.<a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/pikkulotat">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a></p>
       <p><mark>Naapurustossa on talkoot. Siellä pidetään juuri ruokataukoa. Makkaroita paistetaan, ja niiden ihana tuoksu leijuu ylös ullakolle saakka. Lotta löytää matkalaukusta vanhan vihon, jota selaa yhdessä Harmonian ja Oodin kanssa. “Ruisnäkkileipä”, lukee Lotta ääneen. “Tämähän on isoisoäidin vanha reseptivihko!” Lotankin vatsa alkaa kurnia.</mark></p>
       <p><strong>Lottien näkkileipäresepti</strong></p>
-      <img src={breadRecipe} alt={translate('bread_recipe')}/>
+      <img className="large" src={breadRecipe} alt={translate('bread_recipe')}/>
       <p><strong>Pohdinta-/Tehtävävinkkejä:</strong></p>
       <ul>
         <li>Pohtikaa yhdessä oppilaiden kanssa Miksi ruokaa syödään/Miksi ruoka on tärkeää?</li>
@@ -26,10 +26,10 @@ const ElementaryBreadRecipe_fi = () => {
         <li>Mistä ruokaa saadaan? Tutustukaa eri ruoka-aineiden reitteihin esim. Ruuan reitti-sivuilta</li>
       </ul>
       <ul>
-        <li><a href="https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille">https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille</a></li>
-        <li>selvittäkää ruuan reitti ihmisen elimistössä (esim. Heurekan näyttelyiden avulla)</li>
-        <li><a href="https://www.ruokatieto.fi/ruokakasvatus/ruokaketju-ruuan-matka-pellolta-poytaan/ravitsemus-ja-ruuan-valinta/ruuansulatus">Ruuansulatus | Ruokatieto Yhdistys</a></li>
-        <li><a href="https://peda.net/lahti/koulut/karpanen/oppiaineet/biologia/ihminen/ruuansulatus">Ruuansulatus (peda.net)</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille">https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille</a></li>
+        <li>Selvittäkää ruuan reitti ihmisen elimistössä (esim. Heurekan näyttelyiden avulla)</li>
+        <li><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruokaketju-ruuan-matka-pellolta-poytaan/ravitsemus-ja-ruuan-valinta/ruuansulatus">Ruuansulatus | Ruokatieto Yhdistys</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://peda.net/lahti/koulut/karpanen/oppiaineet/biologia/ihminen/ruuansulatus">Ruuansulatus (peda.net)</a></li>
       </ul>
       <ul>
         <li>Mitä ruoka-aineita voi kasvattaa itse?

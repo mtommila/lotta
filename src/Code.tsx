@@ -1,11 +1,8 @@
 import React from 'react';
 import Crypto from 'crypto';
-import { Link } from 'react-router-dom';
-import { FormattedMessage, useIntl } from 'react-intl';
-import translate from './translate';
 import styles from './Code.module.css';
 
-const Code = () => {
+const Code = (): JSX.Element => {
   const [message, setMessage] = React.useState('');
 
   const codes: { [key: string]: string } = {

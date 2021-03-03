@@ -1,13 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FormattedMessage, useIntl } from 'react-intl';
-import translate, {translateComponent} from './translate';
-import styles from './Info.module.css';
+import {translateComponent} from './translate';
 
-const Info = () => {
+const Info = (): JSX.Element => {
   const InfoLang = translateComponent('Info');
   return (
-    <div>
+    <div className="bodytext">
       <InfoLang/>
     </div>
   );

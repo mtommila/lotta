@@ -2,14 +2,14 @@ import React from 'react';
 import translate from './translate';
 import beeBadge from './bee_badge.png';
 
-const ElementaryBeeBadge_fi = () => {
+const ElementaryBeeBadge_fi = (): JSX.Element => {
   return (
     <div>
       <p><mark>Harmonia-Hiiren häntä viuhuu matkalaukussa. Se toivoo löytävänsä sieltä jotakin hienoa. Yhtäkkiä sen käpäliin osuu jotakin kovaa. Harmonia nostaa ja näyttää merkkiä Lotalle ja Oodille. Kaverukset tutkivat sitä yhdessä, ja miettivät, mikä merkin tarina on. Ullakon seinien raoista kuuluu naapuruston iloisia ääniä. Naapurit ovat yhdessä päättäneet maalata läheisen leikkipuiston välinevaraston.</mark></p>
       <p><strong>Lasten ja nuorten talkoot</strong></p>
-      <img src={beeBadge} alt={translate('bee_badge')}/>
+      <img className="large" src={beeBadge} alt={translate('bee_badge')}/>
       <p>Vuoden 1943 kotirintaman talkoomerkki (Turun museokeskuksen lisenssi cc by nd-4.0)</p>
-      <p>Nuorten Talkoot oli vapaaehtoista toimintaa lasten ja nuorten keskuudessa. Mm. <a href="https://fi.wikipedia.org/wiki/Lotta_Sv%C3%A4rd">Lotta Svärd</a> -järjestön pikkulottina toimi 40 000 tyttöä 8- ja 16-ikävuoden väliltä. Nuorten Talkoiden toiminta jakaantui talkootyöhön, keräilyyn ja säästötalkoisiin.</p>
+      <p>Nuorten Talkoot oli vapaaehtoista toimintaa lasten ja nuorten keskuudessa. Mm. <a target="_blank" rel="noreferrer" href="https://fi.wikipedia.org/wiki/Lotta_Sv%C3%A4rd">Lotta Svärd</a> -järjestön pikkulottina toimi 40 000 tyttöä 8- ja 16-ikävuoden väliltä. Nuorten Talkoiden toiminta jakaantui talkootyöhön, keräilyyn ja säästötalkoisiin.</p>
       <p><strong>Pohdinta-/Tehtävävinkkejä: </strong></p>
       <ul>
         <li>Selvitä, mitä töitä kuului Nuorten Talkoiden toimintaan? a.) talkootyö, b.) keräily, c.) säästötalkoot</li>
@@ -23,7 +23,7 @@ const ElementaryBeeBadge_fi = () => {
       <ul>
         <li>Miten talkootöissä voi huomioida kestävän kehityksen ja kierrätyksen? (Voitte käydä koulun pelit/välineet läpi, ja korjata tai huoltaa ne.)</li>
       </ul>
-      <p><em>“Nuorten Talkoiden toimintatapa oli laadittu kilpailulliseksi niin, että joka vuosi kerättiin pisteitä eri tehtävistä, ja syksyisin ahkeruudesta sai kullatun, hopeoidun tai rautaisen talkoomerkin. ”Romumuurahaismerkin” sai keräämällä 20 ehjää pulloa, ”talkoomuurahaismerkin” jos keräsi tietyn määrän jätepuita tai </em><a href="https://fi.wikipedia.org/wiki/K%C3%A4py"><em>käpyjä</em></a><em> autettavalle perheelle.” </em>(<a href="https://fi.wikipedia.org/wiki/Nuorten_Talkoot">https://fi.wikipedia.org/wiki/Nuorten_Talkoot</a>.)</p>
+      <p><em>“Nuorten Talkoiden toimintatapa oli laadittu kilpailulliseksi niin, että joka vuosi kerättiin pisteitä eri tehtävistä, ja syksyisin ahkeruudesta sai kullatun, hopeoidun tai rautaisen talkoomerkin. ”Romumuurahaismerkin” sai keräämällä 20 ehjää pulloa, ”talkoomuurahaismerkin” jos keräsi tietyn määrän jätepuita tai </em><a target="_blank" rel="noreferrer" href="https://fi.wikipedia.org/wiki/K%C3%A4py"><em>käpyjä</em></a><em> autettavalle perheelle.” </em>(<a target="_blank" rel="noreferrer" href="https://fi.wikipedia.org/wiki/Nuorten_Talkoot">https://fi.wikipedia.org/wiki/Nuorten_Talkoot</a>.)</p>
       <ul>
         <li>Suunnittele itse tai pienessä ryhmässä oma talkoomerkki. </li>
       </ul>

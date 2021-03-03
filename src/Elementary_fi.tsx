@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import translate from './translate';
 import styles from './Child.module.css';
 import girl from './coloring_girl_color.jpg';
 import mouse from './coloring_mouse_color.jpg';
 import squirrel from './coloring_squirrel_color.jpg';
-import coloringGirl from './coloring_girl.jpg';
-import coloringMouse from './coloring_mouse.jpg';
-import coloringSquirrel from './coloring_squirrel.jpg';
+import coloringGirl from './coloring_girl.png';
+import coloringMouse from './coloring_mouse.png';
+import coloringSquirrel from './coloring_squirrel.png';
 
-const Elementary_fi = () => {
+const Elementary_fi = (): JSX.Element => {
   return (
     <div>
       <h1>Ullakon salaisuus -seikkailu</h1>

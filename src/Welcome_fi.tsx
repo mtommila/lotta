@@ -1,9 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FormattedMessage, useIntl } from 'react-intl';
-import translate from './translate';
 
-const Welcome_fi = () => {
+const Welcome_fi = (): JSX.Element => {
   return (
     <div>
       <h2>Tervetuloa!</h2>

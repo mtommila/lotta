@@ -32,17 +32,17 @@ const Lotta = (): JSX.Element => {
       </div>
       <div className={styles.row}>
         <Link to="/paivakoti">
-          <div className={styles.circle + ' ' + styles.kindergarten}>
+          <div className={styles.circle + ' ' + styles.small + ' ' + styles.kindergarten}>
             {translate('kindergarten_linktext')}
           </div>
         </Link>
         <Link to="/ala-aste">
-          <div className={styles.circle + ' ' + styles.elementary}>
+          <div className={styles.circle + ' ' + styles.small + ' ' + styles.elementary}>
             {translate('lower_elementary_linktext')}
           </div>
         </Link>
         <Link to="/ylaaste">
-          <div className={styles.circle + ' ' + styles.highschool}>
+          <div className={styles.circle + ' ' + styles.small + ' ' + styles.highschool}>
             {translate('junior_highschool_linktext')}
           </div>
         </Link>

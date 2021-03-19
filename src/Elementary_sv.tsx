@@ -12,53 +12,53 @@ import coloringSquirrel from './coloring_squirrel.png';
 const Elementary_sv = (): JSX.Element => {
   return (
     <div>
-      <h1> Hemligheten med vinden äventyr </h1>
-      <p><strong>Lotas mormors mörka vind har en gammal resväska som ingen ska röra vid. Vems resväska är det, och vad finns i det? Klättra upp på vinden med Lotta-flickan och ta reda på vindens hemlighet med dina barns grupp / klass. Som assistenter har du också Harmonia-Mouse och Oodi-Squirrel som bor på vinden i sektionerna för yngre barn.</strong></p>
+      <h1> Äventyret med hemligheten på vinden </h1>
+      <p><strong>Uppe på Lottas mormors mörka vind finns en gammal kappsäck som ingen får röra. Vems är kappsäcken, och vad finns i den? Klättra upp på vinden tillsammans med lilla Lotta och utforska vindens hemlighet i din grupp eller med din skolklass. Som hjälpredor åt de mindre barnen har du också Harmonia Mus och Oodi Ekorre som bor uppe på vinden.</strong></p>
       <img className = {styles.coloring} src={girl} alt={translate ('Lotta')}/>
       <img className = {styles.coloring} src={mouse} alt={translate ('harmony')}/>
       <img className = {styles.coloring} src={squirrel} alt={translate ('oodi')}/>
-      <p>Kom med och ta reda på vad hemligheten på vinden är. Samtidigt är målet att lära känna och lära sig saker, t.ex. Finlands historia, traditioner och kultur genom olika funktionella uppgifter som lärare kan studera, planera och genomföra tillsammans med sina barn med deltagande av alla. Det finns tre olika avsnitt i paketet för olika åldersgrupper:</p>
-      <p><mark>Det finns också en koduppgift i slutet av de fem sektionerna. Efter att ha löst koden avslöjas äntligen den ultimata hemligheten på vinden. Ordna kodbokstäverna så att de bildar ett ord. Lägg detta ord i det utrymme som anges i koden i din resväska.</mark></p>
-      <p><strong>Hemligheten för grundskolan i grundskolan börjar här:</strong></p>
+      <p>Kom med och ta reda på vad vindens hemlighet är! Målet är att barnen ska bekanta sig med och lära sig om bland annat Finlands historia, traditioner och kultur. Som lärare kan du tillsammans med dina elever studera, planera och genomföra olika uppgifter, vilka är utformade så att alla kan delta i dem. Det finns tre olika nivåer i paketet, anpassade för olika åldersgrupper.</p>
+      <p><mark>Det finns också en koduppgift i slutet av varje av de fem delarna. Efter att du knäckt koden avslöjas den spännande hemligheten på vinden. Ordna kodbokstäverna så att de bildar ett ord. Skriv in detta ord i det utrymme som anges i koden i din resväska.</mark></p>
+      <p><strong>Äventyret med vindens hemlighet för grundskolan börjar här:</strong></p>
       <Link to="/ala-aste/lotta"><img className = {styles.coloring} src={coloringGirl} alt={translate ('coloring_image')}/></Link>
       <Link to="/ala-aste/harmonia"><img className = {styles.coloring} src={coloringMouse} alt={translate ('coloring_image')}/></Link>
       <Link to="/ala-aste/oodi"><img className = {styles.coloring} src={coloringSquirrel} alt={translate ('coloring_image')}/></Link>
-      <p>Innan ett äventyr påbörjas kan alla skapa sin egen reseguide eller resekamrat. Endast fantasin är gränsen för hur karaktärerna kan utföras och dekoreras. Karaktärerna kan antingen vara desamma som i materialpaketet eller så kan du välja en annan karaktär eller komma på något helt annat för dig själv.</p>
+      <p>Innan äventyret påbörjas kan alla skapa sin egen reseguide eller resekamrat. Endast fantasin är gränsen för hur karaktärerna kan utformas och dekoreras. Figurerna kan antingen vara desamma som i materialpaketet eller så kan du välja en annan karaktär eller hitta på något helt nytt.</p>
       <ul>
-        <li>genom att rita</li>
+        <li>Genom att rita</li>
       </ul>
       <ul>
-        <li>Genom att måla (Tecken kan skäras och lamineras för att göra dem mer hållbara.)</li>
+        <li>Genom att måla (figurerna kan lamineras och klippas ut för att göra dem mer hållbara.)</li>
       </ul>
       <ul>
-        <li>Genom att tillverka (2- eller tredimensionellt t.ex. lera, kartong, toalettrullar, naturmaterial)</li>
+        <li>Genom olika hantverksmetoder (två- eller tredimensionellt av t.ex. lera, kartong, toalettrullar, naturmaterial)</li>
       </ul>
       <ul>
-        <li>Sömnad (filt, tyger, gamla strumpor, handskar och vantar)</li>
+        <li>Genom att sy (av t.ex. filt, tyg, gamla strumpor, handskar eller vantar)</li>
       </ul>
       <ul>
-        <li>Bearbetning av en träfigur (plywood + bladsåg, bräda + såg, spik, hammare + multimaterial för dekoration)</li>
+        <li>Genom att snickra en träfigur (plywood + bladsåg, bräda + såg, spik, hammare + material för dekoration)</li>
       </ul>
       <ul>
-        <li>Bekanta dig med ett designprogram (som Tinkercad) och förvandla karaktärerna till 3D-utskrifter</li>
+        <li>Bekanta dig med ett designprogram (som Tinkercad) och gör figurerna genom att skriva ut dem med en 3D-printer</li>
       </ul>
       <ul>
-        <li>Skapa en virtuell karaktär, t.ex. för att ingå i en elektronisk portfölj</li>
+        <li>Skapa en virtuell karaktär, som man kan spara i barnets elektroniska portfolio</li>
       </ul>
-      <p>Innan du startar projektet / går på äventyr kan det vara en bra idé att tänka i din egen klass, t.ex. saker som detta:</p>
+      <p>Innan du inleder projektet och går ut på äventyr kan det vara en bra idé att fundera bl.a. på följande med din klass:</p>
       <ul>
-        <li>Tänk på vilken typ av resekompis du vill ha och behöver ta på dig uppgifter? Varför är det bra om någon är inblandad? Vilka säkerhetsfrågor och egenvårdskunskap skulle vara bra att veta och veta? Vad mer skulle du ta med dig när du åker på äventyr / löser uppdrag? Vad måste övervägas innan du packar något i? Vid denna tidpunkt kan diskussionen utvidgas till att omfatta hur man förbereder sig för resan.</li>
-      </ul>
-      <ul>
-        <li>Har din resekompis några speciella färdigheter eller kompetenser? Hur är det med dig? Vilka färdigheter har du? Vad betyder färdigheter egentligen? Varför behöver vi olika färdigheter? Har vi någon skicklighet så snart vi är födda? Vad sägs om innan det? Kan jag förlora en färdighet?</li>
+        <li>Fundera på vilken typ av resekompis du vill ha och behöver när du löser uppgifterna? Varför är det bra att ha någon med sig? Fundera på varför det blir säkrare och enklare att ta hand om sig själv om man har sällskap. Vad mer är bra att ha när man far på äventyr och löser mysterier? Vad ska man tänka på när man packar? Diskussionen kan också utvidgas till att omfatta hur man förbereder sig för en resa.</li>
       </ul>
       <ul>
-        <li>Finns det några färdigheter som du vill öva under äventyret / projektet?</li>
+        <li>Har din resekompis några speciella förmågor eller kunskaper? Hur är det med dig? Vilka färdigheter har du? Vad betyder det egentligen att ha färdigheter? Varför behöver vi olika färdigheter? Är vi skickliga på något redan från att vi föds? Kanske rent av innan vi föds? Kan man förlora en färdighet?</li>
       </ul>
       <ul>
-        <li>Du kan också namnge din resekompis och tänka på hur du träffade honom, hittade honom eller hittade han dig? Vi har var och en vår historia, historia. Vad är din historia? Skapa ditt eget släktträd.</li>
+        <li>Finns det några färdigheter som du vill öva på eller lära dig under äventyret?</li>
       </ul>
-      <p>Du kan ta itu med dessa frågor som du vill i klassen, till exempel genom att diskutera, berätta, rita, flytta, använda musik / låtar, söka efter information du behöver från en mängd olika källor</p>
+      <ul>
+        <li>Du kan hitta på ett namn åt din resekompis och fundera ut en historia om hur du träffade honom/henne, hittade honom/henne eller var det resekompisen som hittade dig? Vi har var och en vår egen historia och berättelse. Vad är din historia? Rita ditt eget släktträd.</li>
+      </ul>
+      <p>Du kan introducera dessa frågor som du vill i klassen, till exempel genom att diskutera, berätta, rita, använda dans och rörelse, använda musik eller sånger, eller genom att söka efter den information du behöver från en mängd olika källor</p>
     </div>
   );
 };

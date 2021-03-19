@@ -5,54 +5,54 @@ import lottaPin from './lotta_pin.png';
 const ElementaryLottaPin_sv = (): JSX.Element => {
   return (
     <div>
-      <p>Lotta-mark</p>
+      <p>Lottmärket</p>
       <img className="large" src={lottaPin} alt={translate ('lotta_pin')}/>
-      <p><em>“Mönstret var logotypen för hela Lotta Svärd-organisationen. Akseli Gallen-Kallela (1865–1931) ombads att designa logotypen, men det slutliga varumärket designades av konstnären Eric Vasström (1887–1958). År 1921 godkände centralstyrelsen en logotyp där den blå hakakorset och texten Lotta-Svärd kantades av fyra heraldiska rosor. År 1921 godkände centralstyrelsen ett märke där den blå hakakorset och texten Lotta-Svärd kantades av fyra heraldiska rosor.</em></p>
-      <p><em>Hakakorset är tusentals år gammalt världssymbol för lycka till. De äldsta föremålen dekorerade med hakekors tillverkades 6000-5000 f.Kr. I regionerna i norra Mesopotamien och nuvarande Tjeckien. I Finland uppträdde hakakorset i järnåldersföremål, i medeltida kyrkor (t.ex. Mariakyrkan i Åbo) och som ett dekorativt föremål från början av 1900-talet.</em></p>
-      <p><em>Hakakorset användes i finska försvarsmakten 1918–1945 som det nationella emblemet för flygplan och pansarfordon.</em></p>
-      <p><em>Rosen är en mycket vanlig och utbredd symbol i heraldik. Rosen symboliserar lycka och kärlek. ”</em> <a target="_blank" rel="noreferrer" href="https://perinne.fi/lotta-svard-jarjesto/mer info/lottamerkki/">Lottamerkki | Protektorat och Lotta Svärd (perinne.fi)</a></p>
-      <p>Tänkande / uppgiftstips:</p>
+      <p><em>“Lottamärket var kännetecknet för hela Lotta Svärd -rörelsen. Akseli Gallen-Kallela (1865–1931) ombads att designa märket, men slutligen kom det att designas av konstnären Eric Vasström (1887–1958). År 1921 godkände centralstyrelsen en logotyp där det blå hakkorset och texten Lotta Svärd inramades av fyra heraldiska rosor.</em></p>
+      <p><em>Hakkorset är en tusentals år gammal symbol världen över, och den står för god lycka. De äldsta föremålen dekorerade med hakkors som vi hittat härstammar från 6000-5000 f.Kr. i norra Mesopotamien och i nuvarande Tjeckien. I Finland har man hittat hakkors på järnåldersföremål, i medeltida kyrkor (t.ex. Mariakyrkan i Åbo) och som dekorationer på föremål från början av 1900-talet.</em></p>
+      <p><em>Hakkorset användes av den finska försvarsmakten 1918–1945 som det nationella emblemet på flygplan och pansarfordon.</em></p>
+      <p><em>Rosen är en mycket vanlig och utbredd symbol inom heraldiken (heraldik=läran om sköldar och vapen). Rosen symboliserar lycka och kärlek. ”</em> <a target="_blank" rel="noreferrer" href="https://perinne.fi/lotta-svard-jarjesto/mer info/lottamerkki/">Lottamerkki | Suojeluskunnat ja Lotta Svärd (perinne.fi)</a></p>
+      <p>Förslag till uppgifter:</p>
       <ul>
-        <li>Tänk tillsammans varför olika tecken / symboler används? Vilka olika karaktärer har du sett, var och vad betyder de?</li>
+        <li>Fundera tillsammans på varför olika tecken och symboler används? Vilka olika märken med symboler på har du sett? Var har du sett dem, och vad betyder de?</li>
       </ul>
       <ul>
-        <li>Betyder termerna <em>mark</em> och <em>logo</em> samma sak? Vilken används mer nuförtiden?</li>
+        <li>Betyder termerna <em>märke</em> och <em>logo</em> samma sak? Vilken används oftare nuförtiden?</li>
       </ul>
       <ul>
-        <li>Leta efter olika tecken / logotyper (inuti skolan, omgivningen, tidskrifter, läroböcker, egna föremål etc.) och överväga deras betydelse. Jämför, klassificera, ordna de tecken / logotyper du hittar på olika kriterier. Använd till exempel stapeldiagram för att visa egenskaperna för tecken / logotyper.</li>
+        <li>Leta efter olika märken eller logotyper (i skolan, omgivningen, tidskrifter, läroböcker, på egna föremål etc.) och fundera på deras betydelse. Jämför, klassificera och ordna de tecken/logotyper du hittar utifrån olika kriterier. Använd till exempel stapeldiagram för att visa egenskaperna för märken/logotyper.</li>
       </ul>
       <ul>
-        <li>Varför vill olika grupper av människor (t.ex. idrottsklubbar) ha sitt eget varumärke / logotyp?</li>
+        <li>Varför vill olika grupper (t.ex. idrottsklubbar) ha sitt eget märke eller logo?</li>
       </ul>
       <ul>
-        <li>Vilken typ av märke / logotyp vill du ha för din klass?
+        <li>Vilken typ av märke eller logo borde din klass ha?
           <ul>
-            <li>I en grupp, design din egen logotyp för klassen från ditt befintliga klass-ID (2B, 3C, etc.). Kan klass-ID vara mer än bara ett nummer + en bokstav (t.ex. en djurfigur, geometriskt mönster etc.)? Motivera ditt val med hur det relaterar till din klass?</li>
-            <li>Implementera logotyper, till exempel genom att rita, forma, skapa, sy, måla med olika rit- / designprogram. Kom ihåg multimaterial och återvunnet material!</li>
+            <li>Designa enskilt eller i grupper en egen logo för klassen utifrån klassbeteckningen (2B, 3C, etc.). Kan klassbeteckningen vara mer än bara ett nummer och en bokstav (t.ex. en djurfigur eller ett geometriskt mönster)? Motivera ditt val med hur logon relaterar till din klass?</li>
+            <li>Skapa logon till exempel genom att rita, forma, skapa, sy, måla, eller med något rit- eller designprogram. Kom ihåg materialmångfald och återvunnet material!</li>
           </ul>
         </li>
       </ul>
       <ul>
-        <li>Organisera ett mellanmål i skolan eller ett tvärvetenskapligt inlärningspaket med din egen logotyp. Du kan hålla en designtävling för att designa en logotyp.
+        <li>Organisera en satsning i skolan eller ett mångsidigt inlärningsprojekt som har en egen logo. Du kan ordna en designtävling för att hitta en lämplig logo.
           <ul>
-            <li>Capture kan till exempel vara ett läseprojekt, ett träningsprojekt, ett musik- / performance-projekt etc.</li>
+            <li>Satsningen kan till exempel vara ett läsprojekt, ett idrottsprojekt eller ett musik- eller drama-projekt.</li>
           </ul>
         </li>
       </ul>
       <ul>
-        <li>Skolans föräldersförening kunde anordna en logotävling för eleverna att utforma sin egen logotyp.</li>
+        <li>Skolans föräldraförening kan anordna en tävling där eleverna får designa föreningens logo.</li>
       </ul>
       <ul>
-        <li>Om skolan har en vanlig klubb varje år kan en logotävling användas för att utforma sina egna logotyper.</li>
+        <li>Om det finns klubbar som regelbundet övar i skolan så kan de få egna logon via en logotävling.</li>
       </ul>
       <ul>
-        <li>Designa / skapa din egen logotyp för skolan genom en logotävling.</li>
+        <li>Designa och skapa en egen logo åt skolan genom en logotävling.</li>
       </ul>
       <p><a target="_blank" rel="noreferrer" href="https://www.designmuseum.fi/fi/muotoilun-tyokaluja-opetuksen/">Designmuseum</a></p>
-      <p>Bra webblänkar:</p>
-      <p><a target="_blank" rel="noreferrer" href="https://www.museoliitto.fi/museo-opetus">Finska Museumsföreningen - Utbildning</a></p>
+      <p>Användbara webblänkar:</p>
+      <p><a target="_blank" rel="noreferrer" href="https://www.museoliitto.fi/museo-opetus">Suomen museoliitto - Opetus</a></p>
       <p><a target="_blank" rel="noreferrer" href="https://opimuseossa.fi/opimuseossa/index.php?k=12378">https://opimuseossa.fi/opimuseossa/index.php ? k = 12378</a></p>
-      <p><a target="_blank" rel="noreferrer" href="https://lastenkulttuuri.fi/materialit/verkkomaterialit/">Barnkulturs läromedel online - lastenkulttuuri.fi</a></p>
+      <p><a target="_blank" rel="noreferrer" href="https://lastenkulttuuri.fi/materialit/verkkomaterialit/">Lastenkulttuurin oppimateriaaleja verkossa - lastenkulttuuri.fi</a></p>
     </div>
   );
 };

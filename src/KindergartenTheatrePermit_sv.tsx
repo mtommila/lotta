@@ -5,34 +5,34 @@ import theatrePermit from './theatre_permit.png';
 const KindergartenTheatrePermit_sv = (): JSX.Element => {
   return (
     <div>
-      <p><mark>”Hui, vad är det?” utropar Oodi rädd. I resväskans botten stirrar de på två svarta ögonhål. Lotta lyfter en gammal kartongmask från resväskans botten. Han lägger den på ansiktet. Då är också Harmony rädd och hoppar bakom Odes buskiga svans för att gömma sig. ”Meow”, säger Lotta skrattande.</mark></p>
+      <p><mark>”Oj, vad är det?” utropar Oodi förskräckt. Från kappsäckens botten tittar två svarta ögonhål upp på dem. Lotta lyfter upp en gammal maskeradmask från väskans botten. Hon lägger den framför ansiktet. Då blir också Harmonia rädd och hoppar och gömmer sig bakom Oodis buskiga svans. ”Mjau”, säger Lotta och skrattar.</mark></p>
       <p><strong>Tillstånd att gå på teaterövningar</strong></p>
       <img className="large" src={theatrePermit} alt={translate ('theater_permit')}/>
-      <p><em>“De små lotterierna samlades för arbetskvällar där de, förutom hantverk, läste och sjöng. Flickorna övade och framförde låtar, spelar och reciterade på sina egna och vuxna kvällar. ”</em></p>
-      <p>(Little Games, Tradition Games Association & Lottamuseo, 2017)</p>
-      <p>“... <em>små lotterier organiserade kvällar för barn till migranter och reservister ...”</em></p>
-      <p>(Little Games, Tradition Games Association & Lottamuseo, 2017)</p>
-      <p>Tänkande / uppgiftstips:</p>
+      <p><em>“Smålottorna samlades till handarbetskvällar där de, förutom att handarbeta, också läste och sjöng. Flickorna övade och framförde sånger, skådespel och läste både sina egna och vuxnas dikter.”</em></p>
+      <p>(Pikkulotan leikit, Perinneleikit r.y. & Lottamuseo, 2017)</p>
+      <p>“... <em>smålottorna organiserade programkvällar för barn till migranter och reservister ...”</em></p>
+      <p>(Pikkulotan leikit, Perinneleikit r.y. & Lottamuseo, 2017)</p>
+      <p>Förslag till uppgifter:</p>
       <ul>
-        <li>Diskutera i gruppen om barnen har varit på teatern. Vad betyder teater egentligen? Vilka är de olika typerna av teaterformer? (t.ex. dockteater, skuggteater, bordsteater etc.)</li>
-        <li>Har du någonsin spelat någonstans?</li>
-        <li>Planera och framför en föreställning (dockteater, fingerdockateater, lek etc.) tillsammans / i små grupper.
+        <li>Diskutera i gruppen om barnen har gått på teater. Vad är egentligen teater? Vilka olika typer av teater finns det? (t.ex. dockteater, skuggteater, bordteater...)</li>
+        <li>Har du själv spelat teater någonstans?</li>
+        <li>Planera och framför en liten föreställning i smågrupper (dockteater, fingerdocksteater, drama, etc.) .
           <ul>
-            <li>Tänk tillsammans vad ett manus är. Skapa din egen (t.ex. genom berättande), eller välj en bekant saga som du kan göra en presentation från. Finns det ett tal i presentationen, eller presenteras saker i rörelse, med bilder eller med musik / ljudeffekter?</li>
-            <li>Vilka material behövs för att göra karaktärerna? (udda handskar / vantar, papper, kartong, kartongmaterial, naturmaterial, modelleringsvax, lera, magisk deg, etc.) Eller kanske du agerar själv?</li>
-            <li>Var kommer presentationen att vara? Hur gör man produktioner för olika typer av teaterformer? Kan presentationen vara utanför?</li>
-            <li>Har showen musik, ljudeffekter etc.? Hur får man dem? (kroppsinstrument, musikinstrument, hemlagade instrument, dator etc.)</li>
-            <li>Tänk på vem presentationen kan presenteras för (t.ex. inom din egen grupp, andra grupper av barn i dagis, vårdhem / skolor i närheten, föräldrar, fjärrstyrt via video etc.).</li>
+            <li>Fundera tillsammans på vad ett manus är. Skapa ditt eget (t.ex. genom hitta på en saga), eller välj en bekant saga som går att göra som en föreställning. Ska man tala under föreställningen, eller visar man handlingen genom rörelser, bilder eller med musik och ljudeffekter?</li>
+            <li>Vilka material behövs för att göra karaktärerna? (det kan vara udda vantar, figurer man tillverkar av papper, kartong, papplådor, naturmaterial, modellera, lera, trolldeg, etc.) Eller kanske ni agerar själva?</li>
+            <li>Var kommer föreställningen att visas? Hur tillverkar man rekvisita för olika teaterformer? Kan föreställningen göras utomhus?</li>
+            <li>Ska showen innehålla musik eller ljudeffekter? Hur gör man det? (man kan t.ex. använda kroppen som instrument, spela på musikinstrument, göra hemlagade instrument, använda dator...)</li>
+            <li>Fundera på vem man kan visa föreställningen åt (t.ex. åt andra barn i samma grupp eller andra dagisgrupper i samma dagis, på vårdhem eller skolor i närheten, åt föräldrar, eller via videolänk...)</li>
           </ul>
         </li>
       </ul>
       <ul>
-        <li>Besök teatern. (t.ex. närliggande amatörteatrar, barnklubbar etc.)</li>
+        <li>Gör ett besök på en teater. (t.ex. närliggande amatörteatrar, konstklubbar för barn...)</li>
         <li><a target="_blank" rel="noreferrer" href="https://asiakas.kotisivukone.com/files/operatellus.tarjoaa.fi/Hei_tehdaan_musikaali.pdf">Hei_tehdaan_musikaali.pdf (kotisivukone.com)</a></li>
-        <li><a target="_blank" rel="noreferrer" href="https://mieli.fi/fi/kirjat/el%C3%A4inlasten-el%C3%A4m%C3%A4%C3%A4 - mental hälsa färdigheter-p% C3% B6yt% C3% A4theatrical means">Animal life - Mental health skills through table theater | MIND Finnish Mental Health Association</a></li>
-        <li><a target="_blank" rel="noreferrer" href="https://www.teatterimuseo.fi/">Theatre Museum</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://mieli.fi/fi/kirjat/el%C3%A4inlasten-el%C3%A4m%C3%A4%C3%A4 - mental hälsa färdigheter-p% C3% B6yt% C3% A4theatrical means">Eläinlasten elämää - Mielenterveystaitojen pöytäteatterin keinoin / MIELI Suomen Mielenterveys ry.</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://www.teatterimuseo.fi/">Teatterimuseo</a></li>
       </ul>
-      <p><strong>KODUPPGIFT 5: Bokstaven finns i förkortningen för stämpeln i bokstaven.</strong></p>
+      <p><strong>KODUPPGIFT 5: Bokstaven finns i brevet, i förkortningen i stämpeln.</strong></p>
     </div>
   );
 };

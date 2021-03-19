@@ -6,12 +6,12 @@ const Highschool_sv = (): JSX.Element => {
   return (
     <div>
       <h1> Vindens hemlighet </h1>
-      <p><strong>Lotas mormors mörka vind har en gammal resväska som ingen ska röra vid. Vems resväska är det, och vad finns i det? Klättra in på vinden med Lotta-flickan och ta reda på vindens hemlighet med din klass.</strong></p>
+      <p><strong>Uppe på den mörka vinden hos Lottas mormor finns en gammal kappsäck som ingen får röra. Vems är kappsäcken, och vad finns i den? Klättra tillsammans med din klass upp på vinden i lilla Lottas sällskap och ta reda på vindens hemlighet.</strong></p>
       <img src={logo} alt={translate ('lotta_foundation')}/>
-      <p>Kom med och ta reda på vad hemligheten på vinden är. Samtidigt är målet att lära känna och lära sig saker, t.ex. Finlands historia, traditioner och kultur genom olika funktionella uppgifter, som lärare kan studera, planera och genomföra tillsammans med eleverna med deltagande av alla.</p>
-      <p>“<em>Organisationen Lotta var en kvinnlig frivillig, obeväpnad nationell försvarsorganisation som verkade från 1921-1944. Organisationen hade maximalt cirka 240 000 medlemmar, varav nästan 50 000 var 8-17-åringar.</em></p>
-      <p><em>I tider av fred var ett av lotteriorganisationens huvudmål att erbjuda utbildning för sina medlemmar. Genom utbildningen lyckades lotteriorganisationen skapa en organisation som hade operativa förmågor under krigstidens exceptionella omständigheter. Under kriget manifesterades partiets sociala ansvar bland annat i att ta hand om de missgynnade, säkra resan för krigsflyktingar, hjälpa äldre och barn och ta hand om de sjuka.</em></p>
-      <p><em>Lotteriorganisationen upplöstes hösten 1944 under Moskvas truc. Efter upplösningen av organisationen fortsatte lotorna att tillhandahålla underhålls- och hjälparbete på uppdrag av Finlands kvinnors välfärdsstiftelse. År 2004 ändrades namnet på Finlands kvinnors välfärdsstiftelse till Lotta Svärd Foundation. ”</em> <a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/">Hem - Lotta Svärd - Online Museum (lottasvard.fi)</a> </ p >
+      <p>Kom med och utforska vindens hemlighet. Målet är att lära känna och bekanta sig med Finlands historia, traditioner och kultur genom olika funktionella uppgifter. Lärare och elever får tillsammans undersöka, planera och genomföra uppgifterna som är planerade så att alla kan delta.</p>
+      <p>“<em>Lottarörelsen var en frivillig, vapenlös nationell försvarsorganisation för kvinnor. Den verkade från 1921-1944. Rörelsen hade som mest cirka 240 000 medlemmar, varav nästan 50 000 var 8-17-åringar.</em></p>
+      <p><em>Under fredstid var ett av lottarörelsens huvudmål att erbjuda utbildning åt sina medlemmar. Genom utbildningen lyckades lottarörelsen skapa en organisation med stark handlingsförmåga under krigstidens exceptionella omständigheter. Under kriget syntes rörelsens sociala ansvar bland annat i att ta hand om de svagaste i samhället, genom skapa säkra flyktvägar för kringsflyktingar, hjälpa äldre och barn och omsorgen om sjuka.</em></p>
+      <p><em>Lottarörelsen upplöstes hösten 1944 i och med mellanfreden i Moskva. Efter att organisationen upplösts fortsatte lottorna att tillhandahålla underhålls- och hjälparbete under namnet Vårdstiftelsen för Finlands Kvinnor. År 2004 ändrades namnet på Vårdstiftelsen för Finlands Kvinnor till Lotta Svärd -Stiftelsen. ”</em> <a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/">Etusivu - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a> </ p >
     </div>
   );
 };

@@ -5,51 +5,51 @@ import beeBadge from './bee_badge.png';
 const KindergartenBeeBadge_sv = (): JSX.Element => {
   return (
     <div>
-      <p><mark>Harmonia-Muss svans visslar i hennes resväska. Det hoppas kunna hitta något bra där. Plötsligt träffar något hårt i tassen. Harmony lyfter och visar ett tecken till Lota och Oodi. Kompisarna utforskade det tillsammans och undrade vad historien om karaktären är. Från luckorna i vindväggarna kan du höra grannskapets glada ljud. Grannar har tillsammans beslutat att måla utrustningen för en lekplats i närheten.</mark></p>
-      <p><strong>Barn- och ungdomssamtal</strong></p>
+      <p><mark>Harmonia Mus sopar omkring med svansen i kappsäcken. Hon hoppas hitta något spännande där. Plötsligt slår hon tassen i något hårt. Harmonia lyfter upp ett märke och visar det åt Lotta och Oodi. Kompisarna undersöker det tillsammans och undrar vad märket betyder. Genom springorna i vindväggarna hörs glada röster från utsidan. Grannarna har beslutat att på talko måla om ett skjul på en lekplats i närheten.</mark></p>
+      <p><strong>Barn- och ungdomstalko</strong></p>
       <img className="large" src={beeBadge} alt={translate ('bee_badge')}/>
-      <p><em>1943 Hjälpmärke för hemmafronten (Åbo museumscenter licens cc av nd-4.0)</em></p>
-      <p><em>Youth Talkoot var en frivillig aktivitet bland barn och ungdomar. Mm.</em> <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Lotta_Sv%C3%A4rd"><em>Lotta Svärd</em></a> <em>-organisationen hade 40 000 tjejer mellan 8 och 16 år. Young Talks aktiviteter delades in i samhällstjänst, insamling och besparingar.</em></p>
-      <p>(<a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/kerays-ja-huoltojaosto">Lotta Association Chambers - Lotta Svärd - Online Museum (lottasvard.fi)</a></p>
-      <p><strong>Reflektion / uppgiftstips:</strong></p>
+      <p><em>1943 års talkomärke för hemmafronten (Turun museokeskuksen lisenssi cc by nd-4.0)</em></p>
+      <p><em>Ungdomstalko var en frivillig aktivitet bland barn och ungdomar. </em> <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Lotta_Sv%C3%A4rd"><em>Lotta Svärd</em></a> <em>-organisationen hade 40 000 medlemmar som var flickor mellan 8 och 16 år. Smålottornas uppgifter delades in i talkoarbete, insamlingar och besparingstalkon.</em></p>
+      <p>(<a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/kerays-ja-huoltojaosto">(Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a></p>
+      <p><strong>Förslag till uppgifter:</strong></p>
       <ul>
-        <li>Tänk med barnen på vad det innebär att arbeta.</li>
+        <li>Fundera tillsammans med barnen på vad talkoarbete innebär.</li>
       </ul>
       <ul>
-        <li>Har du någonsin deltagit i ett lag? Vilka är / kan vara de olika typerna av arbetssituationer?</li>
+        <li>Har du någonsin deltagit i talko? Vilka olika typer av talkotillfällen finns det?</li>
       </ul>
       <ul>
-        <li>Skapa ditt eget varumärke tillsammans.</li>
+        <li>Planera och skapa ert eget talkomärke tillsammans.</li>
       </ul>
       <ul>
-        <li>Vad bör du tänka på när du planerar? Till exempel, hur och var kan det fästas? Från vilket material, med vilka verktyg och på vilka sätt kan det bearbetas och implementeras? (<em>not! mångfald och användning av återvunnet material)</em></li>
+        <li>Vad bör man tänka på när man planerar märket? Hur och var kan det fästas? Vilket material tillverkas märket av, och med vilka verktyg och hur tillverkar man märket? (<em>Obs! Tänk på materialmångfald och på att prioritera återvunnet material)</em></li>
       </ul>
       <ul>
-        <li>Till exempel, hur skapar du dessa karaktärer?
+        <li>Hur kan man skapa ett talkomärke?
           <ul>
             <li>Rita eller måla</li>
-            <li>Genom att tillverka (t.ex. från återvunna material)</li>
-            <li>Lär dig mer om datorritning och designprogramvara som till exempel kan skriva ut på etikettpapper eller bifoga till din egen portfölj / Vasu</li>
-            <li>genom att sy (filt, tyger)</li>
-            <li>genom att till exempel böja metalltråd</li>
+            <li>Olika hantverksmetoder (t.ex. från återvunnet material)</li>
+            <li>Bekanta er med ritnings- och designprogram till datorn. Till exempel kan man printa ut märken på självhäftande etiketter. Resultaten kan sparas i barnets inlärningsportfolio</li>
+            <li>Genom att sy (i filt eller tyger)</li>
+            <li>Genom att forma figurer av metalltråd</li>
           </ul>
         </li>
       </ul>
       <ul>
-        <li>Kom med något användbart arbete eller en aktivitet som skulle gynna samhället (skapa och skicka alla hjärtans dag / påsk / julkort till vårdhem, samla skräp från vårdhem / vårdhemmiljö).</li>
+        <li>Hitta på något talkoprojekt eller talkoarbete som skulle gynna samhället. (Man kan tillverka och skicka kort på tema Alla hjärtans dag, påsk eller jul och sända till vårdhem, eller så kan man plocka skräp i omgivningen kring vårdhem eller daghem).</li>
       </ul>
       <ul>
-        <li>Hur kan hållbar utveckling och återvinning beaktas i volontärarbete? (Du kan gå igenom dagislekarna / böckerna och fixa / underhålla dem.)</li>
+        <li>Hur kan hållbar utveckling och återvinning beaktas i talkoarbete? (Ni kan gå igenom spel och böcker i dagiset och reparera dem.)</li>
       </ul>
       <ul>
-        <li>Tänk med barnen vad insamling betyder. Vad var det förut? Vad kan samlas in idag? Samlar någon in?</li>
+        <li>Fundera med barnen på vad insamlingar betyder. Vad innebar det förr i världen? Vad samlar man in när man har insamling? Håller någon på med insamlingar idag?</li>
       </ul>
-      <p><strong>Läs mer om ungdomsarbete:</strong></p>
-      <p><em>Young Talks strategi hade utformats för att vara konkurrenskraftig, med poäng som tjänades in varje år för olika uppgifter, och på hösten fick flit ett guldpläterat, försilvrat eller järn-talk-märke. ”Skrotmyremärket” erhölls genom att samla in 20 intakta flaskor, ”talangmyremärket” om du samlade en viss mängd skräpträd eller kottar för familjen som hjälpte.</em></p>
-      <p>(<a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Youth_Talkers">https://en.wikipedia.org/wiki/Youth_Talkers</a>.)</p>
-      <p><em>“Lotteriorganisationens insamlingsaktiviteter var ganska olika. De mest lukrativa insamlingsformerna var lotterier och olika försäljningskampanjer. Försäljningen av lotteripublikationer och samlingen av tidningsabonnemang var standarduppgifter för samlingsavdelningen. ”</em></p>
-      <p>(<a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/kerays-ja-huoltojaosto">Lotta Association Chambers - Lotta Svärd - Onlinemuseet (lottasvard.fi)</a>)</p>
-      <p><strong>KODUPPGIFT 2: Vad är första bokstaven i årets tredje siffra som visas på skylten?</strong></p>
+      <p><strong>Mera information om ungdomstalko:</strong></p>
+      <p><em>Strategin för ungdomstalko utformades för att sporra tävlingsinstikterna på så sätt att man förtjänade in poäng in varje år för olika uppgifter, och på hösten fick man ett guld- silver eller bronsmärke. ”Skrotmyremärket” fick den som samlade in 20 hela flaskor, medan ”talangmyremärket” fick den som samlade en viss mängd träavfall eller kottar för att hjälpa sin familj.</em></p>
+      <p>(<a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Youth_Talkers">https://fi.wikipedia.org/wiki/Nuorten_Talkoot.</a>.)</p>
+      <p><em>“Lottaorganisationens insamlingar var ganska olika. De mest lukrativa insamlingsformerna var lotterier och olika försäljningskampanjer. Till insamlingsavdelningens standarduppgifter hörde att sälja lottatidningen och ta upp prenumerationsbeställningar på den. ”</em></p>
+      <p>(<a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/kerays-ja-huoltojaosto">(Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a>)</p>
+      <p><strong>KODUPPGIFT 2: Om du skiver ut den tredje siffran i förtjänstmärkets årtal med bokstäver, vilken är då den första bokstaven?</strong></p>
     </div>
   );
 };

@@ -5,41 +5,41 @@ import skiBadge from './ski_badge.png';
 const KindergartenSkiBadge_sv = (): JSX.Element => {
   return (
     <div>
-      <p><mark>”Vad är glänsande och glittrande längst ner på resväskan?” undrar Oodi ekorren. Oodi plockar upp det gyllene märket på sina tassar och blir kär i kottarna som hänger i den. Tillsammans utforskar Oodi, Lotta och Harmonia ett fint smycke som finns i en resväska. De undrade var Lotas mormor fick en sådan guldskatt.</mark></p>
-      <p><strong>Lotta Svärds Golden Ski and Walking Badge</strong></p>
+      <p><mark>”Vad är det där som glänser och glittrar längst ner i kappsäcken?” undrar Oodi Ekorre. Han plockar upp det gyllene märket med tassarna och han tittar förtjust på de tre förgyllda kottarna som hänger från smycket. Oodi plockar tillsammans med Lotta och Harmonia upp det vackra smycket från kappsäckens botten. De undrar var Lottas mormor har hittat en sådan guldskatt.</mark></p>
+      <p><strong>Lotta Svärds gyllene skid- och gångmärke</strong></p>
       <img className="large" src={skiBadge} alt={translate ('ski_badge')}/>
-      <p><em>Precis som idag ansåg Lotta Svärd att god fysisk och mental kondition förbättrade människors hälsa och livskvalitet. Träning uppmuntrades med olika nivåer av konditionstecken. Det stora partiet hade sitt eget skid- och vandringsskylt, som det fick sitt eget genom att genomföra en viss utmaning. Det bästa var det gyllene gångskylten med tre gyllene kottar hängande från det.</em></p>
-      <p>(<a target="_blank" rel="noreferrer" href="https://www.nostalgisetnaiset.fi/sananen-lottajarjeston-merkeista/">Sananen Om Lottaföreningens skyltar ... - Nostalgiska kvinnor</a>)<br/><br/><strong>Reflektion / Uppgiftstips:</strong></p>
+      <p>Lotta Svärd ansåg, precis som man också gör idag, att en god fysisk och mental kondition förbättrar människors hälsa och livskvalitet. Träning uppmuntrades med olika nivåer av förtjänstmärken.<br/>Lottakåren hade sitt eget skid- och gångmärke som man kunde få genom att klara av olika utmaningar. Det gyllene gångmärket, som hade tre gyllene kottar hängande från det, var den högsta utmärkelsen.</p>
+      <p>(<a target="_blank" rel="noreferrer" href="https://www.nostalgisetnaiset.fi/sananen-lottajarjeston-merkeista/">Sananen Lottajärjestön merkeistä ... - Nostalgiset Naiset</a>)<br/><br/><strong>Uppgifter:</strong></p>
       <ul>
-        <li>Planera en gemensam / varje träningsgrupp i gruppen. Vad bör beaktas i designen? Till exempel, hur och var kan det fästas, från vilket material, med vilka verktyg och på vilka sätt kan det bearbetas och implementeras? (<em>Obs: mångfald och användning av återvunnet material</em>)</li>
+        <li>Designa ett gemensamt eller individuellt konditionsmärke åt gruppen. Vad bör man tänka på när man designar det? Kanske hur och var kan det fästas, vilket material ni använder (Obs! Fundera på hur ni kan använda återvunnet material!), med vilka verktyg ni tillverkar det och på vilka sätt man kan förtjäna det?</li>
       </ul>
       <ul>
-        <li>Till exempel, hur gör du dessa karaktärer?</li>
+        <li>Hur skapar du sådana märken?</li>
       </ul>
       <ul>
-        <li>Ritning eller målning (laminering gör dem tåligare)</li>
-        <li>av hantverk (2- eller tredimensionellt t.ex. lera, kartong, toalettrullar, naturmaterial, t.ex. genom vävning av hö / kvistar)</li>
-        <li>genom att sy (filt, tyger)</li>
+        <li>Genom att rita eller måla (märkena håller bättre om de lamineras.)</li>
+        <li>Genom olika hantverksmetoder (två- eller tredimensionellt t.ex. av lera, kartong, toalettrullar, eller naturmaterial, genom att väva av strån eller kvistar)</li>
+            <li>Genom att sy (av filt eller tyg)</li>
       </ul>
-      <p><em>Obs! mångfald och användning av återvunnet material</em></p>
+      <p><em>Obs! Kom ihåg materialmångfald och försök återvinna använt material</em></p>
       <ul>
-        <li>Tänk tillsammans vilka träningsförmåga barnen i gruppen vill lära sig.</li>
+        <li>Fundera tillsammans på vilka idrotts- eller träningsformer barnen vill lära sig.</li>
       </ul>
-      <p>Vilka sporter kan få ett märke? Till exempel att köra en inomhus- eller utomhusbana, gå på klackar, gå på tårna, ett salto, gå / springa / hoppa på en överenskommen längdrutt.</p>
+      <p>Vilka märken för vilken sorts prestation kan man få? Till exempel ta sig igenom en hinderbara inom- eller utomhus, gå på hälarna eller tårna, slå kullerbyttor eller springa/gå en viss sträcka.</p>
       <ul>
-        <li>Ha en träningspass för andra grupper i förskolan där färdigheten lärs in, eller ge dem ett träningspår inifrån eller ut, etc.</li>
-      </ul>
-      <ul>
-        <li>Ha en ledig dag tillsammans på dagis med olika aktivitetspunkter för att slutföra ditt fitnessmärke.</li>
+        <li>Ordna en motionskampanj för andra grupper på dagiset eller förskolan, där ni lär ut olika motionsformer, eller konstruera en hinderbana åt dem inom- eller utomhus, etc.</li>
       </ul>
       <ul>
-        <li>Du kan till och med ta kursen / aktiviteten i skogen / dagisgården och tänka på vilken typ av träning det skulle vara där du får konditionsmärket (naturparkour, plattformsspel).</li>
+        <li>Ordna en gemensam friluftsdag på dagiset med olika aktivitetspunkter där man kan förtjäna olika konditionsmärken.</li>
       </ul>
       <ul>
-        <li>Låt barnen ”göra sina läxor” hemma med en liknande träningspass där syskon och föräldrar kan tjäna sina egna konditionsmärken. Barn kan fylla i skyltarna i dagis.</li>
+        <li>Friluftsdagen kan ordnas i skogen eller på gården. Ni kan fundera på vilken träningsform man kan utföra där som gör att man förtjänar konditionsmärkena (naturparkour, plattformsspel).</li>
       </ul>
-      <p>Uppgifterna kan inkludera den omgivande miljön, naturresor. Det viktigaste att komma ihåg är att alla kan delta och göra tillsammans och individuellt, i en större och mindre grupp, enligt sina egna färdigheter.</p>
-      <p><strong>KODUPPGIFT 1: Vilken stor bokstav hittar du i karaktären?</strong></p>
+      <ul>
+        <li>Ge barnen som hemläxa att ordna träningspass där syskon och föräldrar kan förtjäna sina egna konditionsmärken. Barn kan tillverka märkena färdigt redan i dagiset.</li>
+      </ul>
+      <p>Uppgifterna kan inkludera den omgivande miljön, om det exempelvis finns naturstigar nära. Det viktigaste att komma ihåg är att alla kan delta tillsammans och individuellt, i större eller mindre grupper, och att alla kan delta i enlighet med sina förmågor.</p>
+      <p><strong>KODUPPGIFT 1: Vilken stor bokstav hittar du i idrottsmärket?</strong></p>
     </div>
   );
 };

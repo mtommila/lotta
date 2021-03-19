@@ -5,59 +5,59 @@ import breadRecipe from './bread_recipe.png';
 const ElementaryBreadRecipe_sv = (): JSX.Element => {
   return (
     <div>
-      <p>Catering</p>
-      <p>“<em>Hösten 1938 planerades ekonomiska tjänster under krigstid i Försvarsdepartementets militära ekonomiavdelning. När designarbetet utvecklades märktes det att det skulle vara omöjligt att leverera tillräckligt med bröd till fältarmén om driften av stora bagerier störs, till exempel på grund av strömavbrott. För att säkra brödbakningen bad militärekonomiska avdelningen vid försvarsministeriet Lotta om hjälp. Loths bakar bröd under extra repetitioner och vinterkriget. Till exempel, hela vintern 1939 bakade lotteridistrikten totalt 81.000 pund bröd, initialt upp till 103.000 pund per dag. Detta enorma bakningskontrakt gjordes som obetalt lotteriarbete. Försvarsmakten ersatte andra kostnader för att baka bröd.</em> ”<a target =" _ blank "rel =" noreferrer "href =" https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/muonitusjaosto">Avdelningar från Lotta Association - Lotta Svärd - Online Museum lottasvard.fi</a></p>
-      <p>I Pikkulot, ”<em>i restaurangavdelningen, arbetade arbetet med att laga mat, deka bordet och vägleda grunderna för servering</em>.” <a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi / lottagalleria / lottajarjeston-jaostot / #! / pikkulotat">Lottaorganisationens kamrar - Lotta Svärd - Onlinemuseet (lottasvard.fi)</a></p>
-      <p><mark>Det finns talkos i grannskapet. Det är bara en matpaus. Korvarna stekas och deras underbara arom svävar upp till vinden. Lotta hittar ett gammalt häfte i sin resväska, som hon rullar tillsammans med Harmonia och Oodi. ”Rågknäckebröd,” läser Lotta högt. ”Det här är mormors gamla recepthäfte!” Lotanks mage börjar anstränga sig.</mark></p>
+      <p>Matleverans</p>
+      <p>“<em>Hösten 1938 planerade försvarsdepartementets militära ekonomiavdelning hushållningen i krigstid. Under planeringen märkte man att det kommer att vara omöjligt att leverera tillräckligt med bröd till armén ute i fält om de stora bageriernas arbete störs, till exempel om det blir strömavbrott. För att säkra tillgången på bröd bad den militärekonomiska avdelningen vid försvarsministeriet Lottakåren om hjälp. Lottorna bakade bröd som användes under extra repetitionsövningar och under vinterkriget. Som ett exempel kan nämnas att under vintern 1939 bakade lottadistrikten totalt 81 000 kilo bröd per dag. I början av vintern till och med upp till 103 000 kilo per dag. Denna otroliga bakningsinsats var gratisarbete som lottorna utförde. Försvarsmakten ersatte kostnaderna för att baka brödet.</em> ”<a target =" _ blank "rel =" noreferrer "href =" https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/muonitusjaosto">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo lottasvard.fi</a></p>
+      <p>Smålottorna ”<em>deltog i matlagningen. Arbetet innebar att laga maten och att duka bord. De fick också lära sig grunderna i hur man serverar.</em>.” <a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi / lottagalleria / lottajarjeston-jaostot / #! / pikkulotat">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo lottasvard.fi</a></p>
+      <p><mark>Det pågår talko i grannskapet. Just nu håller talkofolket matpaus. De grillar korv och den goda doften letar sig upp på vinden. Lotta hittar ett gammalt häfte i kappsäcken. Hon öppnar det tillsammans med Harmonia och Oodi. ”Rågknäckebröd,” läser Lotta högt. ”Det här är mormors gamla recepthäfte!” Lottas mage börjar kurra.</mark></p>
       <p><strong>Massor av knäckebrödrecept</strong></p>
       <img className="large" src={breadRecipe} alt={translate ('bread_recipe')}/>
-      <p>Tänkande / uppgiftstips:</p>
+      <p>Förslag på uppgifter:</p>
       <ul>
-        <li>Tänk med eleverna Varför äts mat / Varför är mat viktigt?</li>
+        <li>Fundera med gruppen på varför vi äter mat och varför mat är viktigt?</li>
       </ul>
       <ul>
-        <li>Till exempel kan en skålmall användas för att diskutera olika livsmedel (t.ex. kött, fisk, mejeriprodukter, spannmål etc.)
+        <li>Som hjälp under samtalet kan en tallriksmodell användas när ni diskuterar vilka olika livsmedel det finns (kött, fisk, mejeriprodukter, spannmål etc.)
           <ul>
-            <li>Skapa din egen tallriksdesign, till exempel genom att klippa bilder från tidskrifter, rita dig själv, forma magisk deg (instruktioner för magisk deg kan enkelt hittas online), etc.</li>
+            <li>Skapa din egen tallriksmodell med olika sorters mat. Du kan klippa bilder från tidningar, rita mat, eller tillverka av trolldeg (instruktioner för trolldeg hittas enkelt online), etc.</li>
           </ul>
         </li>
       </ul>
       <ul>
-        <li>Var får jag mat? Kolla in rutterna för olika livsmedel, till exempel, på Food Route-sidorna</li>
+        <li>Varifrån kommer vår mat? Utforska hur maten hittar till våra tallrikar, till exempel från dessa websidor</li>
       </ul>
       <ul>
-        <li><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille">https://www.ruokatieto.fi/ruokakasvatus / mat-väg-mat-utbildning-grundskolor</a></li>
-        <li>Ta reda på vägen för mat i människokroppen (t.ex. genom Heureka-utställningar)</li>
-        <li><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruokaketju-ruuan-matka-pellolta-poyetaan/ravusmus-ja-ruuan-valinta/ruuansulatus">Matsmältning Food Information Association</a></li>
-        <li><a target="_blank" rel="noreferrer" href="https://peda.net/lahti/schools/carpan/subjects/biology/human/ Digestion">Digestion (peda.net)</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille">https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille</a></li>
+        <li>Ta reda hur maten transporteras genom människokroppen (t.ex. genom Heureka-utställningar)</li>
+        <li><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruokaketju-ruuan-matka-pellolta-poyetaan/ravusmus-ja-ruuan-valinta/ruuansulatus">Ruuansulatus | Ruokatieto Yhdistys</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://peda.net/lahti/schools/carpan/subjects/biology/human/ Digestion">Ruuansulatus (peda.net)</a></li>
       </ul>
       <ul>
         <li>Vilka livsmedel kan du odla själv?
           <ul>
-            <li>Följ tillväxten av en enkel växt genom att plantera till exempel en njurböna / korn</li>
-            <li>Skapa din egen lilla grönsaks trädgård (i en filburk, frysbox etc.).</li>
-            <li>Hemma kan du lägga en köpt kruksallad i en burk för att växa.</li>
+            <li>Följ tillväxten hos en enkel växt genom att plantera till exempel en kidneyböna eller ett korn</li>
+            <li>Skapa ditt eget lilla grönsaksland (i t.ex. en filburk eller frysburk).</li>
+            <li>Hemma kan du plantera en köpt kruksallad i en burk och se den växa.</li>
           </ul>
         </li>
       </ul>
       <ul>
-        <li>Har du lagat mat eller hjälpt till med mat eller bakat något? Vad har du gjort? Med vem? Du kan till och med illustrera dina reflektioner genom att rita eller måla.</li>
+        <li>Har du själv lagat mat, hjälpt till att laga mat eller bakat något? Vad har du lagat? Med vem? Du kan rita eller måla för att visa vad du lagat.</li>
       </ul>
       <ul>
-        <li>Vad är ett recept? Vilken information finns i receptet? (T.ex. siffror, bokstäver, kvantiteter, tider och olika sätt att hantera mat) Var kan jag hitta recept? Kan receptet göras själv? Vid behov kan också skillnaden mellan ett recept och ett recept övervägas.</li>
+        <li>Vad är ett recept? Vilken information finns i receptet? (T.ex. siffror, bokstäver, mängd, tider och olika beskrivningar hur man hanterar mat) Var hittar man recept? Kan man göra sina egna recept? Vid behov kan man förklara skillnaden mellan ett matrecept och ett läkarrecept.</li>
       </ul>
       <ul>
-        <li>Lär dig mer om hemmatskulturer, till exempel genom att ta med bilder / recept på dina favoriträtter, dela dina egna eller dina föräldrars matminnen etc.</li>
+        <li>Lär dig mer om matkulturen i olika hem, till exempel genom att ta med foton eller recept på dina favoriträtter. Du kan berätta om dina egna eller dina föräldrars matminnen.</li>
       </ul>
       <ul>
-        <li>Vilket bestick behövs för att äta? Hur täcks bordet? Vad betyder det att täcka ett bord? Bestickets egna platser i bordsdekningen.
+        <li>Vilka bestick behövs för att äta? Hur dukar man ett bord? Vad betyder det att duka ett bord? Hur placerar man besticken när man dukar?
           <ul>
-            <li>Skapa dina egna matfack som kan visa föremål som bestick eller några bilder som gör det lättare att äta. Underlag kan lamineras för bättre konservering.</li>
-            <li>Öva på servettvikning. Vad är en servett och vad är dess syfte?</li>
+            <li>Skapa ditt eget tallriksunderlägg som visar var föremål såsom besticken ska vara, eller bilder som gör det lättare att äta. Laminera gärna underläggen så håller de länge.</li>
+            <li>Öva på att vika servetter. Vad är en servett och vad är syftet med den?</li>
           </ul>
         </li>
       </ul>
-      <p><strong>KODUPPGIFT 3: Vilken bokstav är den femte bokstaven i den andra ingrediensen i receptet?</strong></p>
+      <p><strong>KODUPPGIFT 3: Vilken bokstav är den femte bokstaven i receptets andra ingrediens?</strong></p>
     </div>
   );
 };

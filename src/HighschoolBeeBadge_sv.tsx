@@ -5,37 +5,37 @@ import beeBadge from './bee_badge.png';
 const HighschoolBeeBadge_sv = (): JSX.Element => {
   return (
     <div>
-      <p><strong>Barn- och ungdomssamtal</strong></p>
+      <p><strong>Barn- och ungdomstalko</strong></p>
       <img className="large" src={beeBadge} alt={translate ('bee_badge')}/>
-      <p>1943 Hjälpmarkeringshjälp (Åbo museumscenter licens cc av nd-4.0)</p>
-      <p>Youth Talkoot var en frivillig aktivitet bland barn och ungdomar. Till exempel var <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Lotta_Sv%C3%A4rd">Lotta Svärd</a> ett litet lotteri på 40000 flickor 8 - och 16 år. De unga samtalens aktiviteter delades in i lagarbete, insamling och besparingar.</p>
+      <p>1943 års talkomärke för hemmafronten (Turun museokeskuksen lisenssi cc by nd-4.0)</p>
+      <p>Ungdomstalko var en frivillig aktivitet bland barn och ungdomar. <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Lotta_Sv%C3%A4rd">Lotta Svärd</a> -organisationen hade 40 000 medlemmar som var flickor mellan 8 och 16 år. Smålottornas uppgifter delades in i talkoarbete, insamlingar och besparingstalkon.</p>
       <p><a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Youth_Talkers">https://en.wikipedia.org/wiki/Youth_Talkers</a></p>
-      <p><strong>Reflektion / uppgiftstips:</strong></p>
+      <p><strong>Förslag till uppgifter:</strong></p>
       <ul>
-        <li>Ta reda på vilka jobb som var involverade i ungdomsarbetet? a.) hjälparbete, b.) insamling, c.) spararbete</li>
+        <li>Ta reda på vilka typer av arbete som hörde till ungdomstalko? a.) hjälparbete, b.) insamling, c.) besparingar</li>
       </ul>
       <p><a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/kerays-ja-huoltojaosto">Lotta Svärd - Online Museum ( Lottasvard .com)</a> <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Youth_Talkers">https://en.wikipedia.org/wiki/ Youth_Talkers</a></p>
       <ul>
-        <li>Har du någonsin deltagit i ett lag? Vilka är / kan vara de olika typerna av arbetssituationer?</li>
+        <li>Har du någonsin deltagit i talkoarbete? Vilka olika typer av talkoarbete finns det?</li>
       </ul>
       <ul>
-        <li>Kom med lite användbart arbete eller aktivitet som skulle gynna samhället (att sy små täcken till ett barnsjukhus, etc. / stickning hattar för nyfödda, göra utomhus täcken på vårdhem, sy en lätt ansiktsmask, göra och skicka jul kort till vårdhem), samla skräp</li>
+        <li>Hitta på något talkoarbete som gynnar samhället (sy små täcken till ett barnsjukhus, sticka små mössor åt nyfödda, gör utomhusfiltar åt ett ålderdomshem, sy enkla ansiktsmasker av tyg, tillverka och skicka julkort till vårdhem), plocka skräp omkring ett vårdhem etc.)</li>
       </ul>
       <ul>
-        <li>Hur kan hållbar utveckling och återvinning beaktas i volontärarbete? (Du kan gå igenom skolspel / utrustning och reparera eller underhålla dem.)</li>
+        <li>Hur kan hållbar utveckling och återvinning beaktas i talkoarbete? (Ni kan gå igenom spel eller utrustning i skolan som ni reparerar och underhåller.)</li>
       </ul>
-      <p><em>“The Young Talks strategi hade utformats för att vara konkurrenskraftig, med poäng som tjänades in varje år för olika uppgifter, och på hösten fick flit en guldpläterad, silverpläterad eller järn-talk bricka. ”Skrotmyremärket” erhölls genom att samla in 20 intakta flaskor, ”talkmyremärket” om du samlade en viss mängd avfallsträd eller</em> <a target="_blank" rel="noreferrer" href=" https://en.wikipedia.org/wiki/K% C3% A4py"><em>kottar</em></a> <em>för att familjen får hjälp.”</em> <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Youth_Talkers">https://en.wikipedia.org/wiki/Youth_Talkers</a></p>
+      <p><em>“Strategin för ungdomstalko utformades för att sporra tävlingsinstinkterna på så sätt att man förtjänade in poäng in varje år för olika uppgifter, och på hösten fick man ett guld- silver eller bronsmärke. ”Skrotmyremärket” fick den som samlade in 20 hela flaskor, medan ”talangmyremärket” fick den som samlade en viss mängd träavfall eller</em> <a target="_blank" rel="noreferrer" href=" https://en.wikipedia.org/wiki/K% C3% A4py"><em>kottar</em></a> <em>för att hjälpa sin familj.”</em> <a target="_blank" rel="noreferrer" href="https://fi.wikipedia.org/wiki/Nuorten_Talkoot</a></p>
       <ul>
-        <li>Designa ditt eget eller en liten grupp av ditt eget hjälpmärke.</li>
-      </ul>
-      <ul>
-        <li>Vad bör du tänka på när du planerar? Till exempel, hur och var kan det fästas? Från vilket material (notera! Multi-materialitet och användning av återvunnet material), med vilka verktyg och på vilka sätt kan det bearbetas och implementeras?</li>
+        <li>Planera och designa ett eget talkomärke i grupp eller enskilt.</li>
       </ul>
       <ul>
-        <li>Till exempel, hur skapar du dessa karaktärer?
+        <li>Vad bör man tänka på när man planerar märket? Hur och var kan det fästas? Vilket material tillverkas märket av, och med vilka verktyg och hur tillverkar man märket? (Obs! Tänk på materialmångfald och på att prioritera återvunnet material)</li>
+      </ul>
+      <ul>
+        <li>Hur kan man skapa ett talkomärke?
           <ul>
-            <li>Använd ett rit- / designprogram för din design, och om möjligt, skriv ut tecknen på en 3D-skrivare, till exempel, eller använd en laserskärare.</li>
-            <li>Kan den här karaktären vara virtuell och till exempel implementerad som en klassrumsuppgift?</li>
+            <li>Använd ett rit- / designprogram när du planerar. Skriv, om möjligt, ut märket med en 3D-printer, eller använd en laserskärare.</li>
+            <li>Kan märkena vara enbart virtuella? Kan de förverkligas som en uppgift i Classroom?</li>
           </ul>
         </li>
       </ul>

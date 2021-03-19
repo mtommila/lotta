@@ -10,7 +10,7 @@ const ElementaryLottaPin_sv = (): JSX.Element => {
       <p><em>“Lottamärket var kännetecknet för hela Lotta Svärd -rörelsen. Akseli Gallen-Kallela (1865–1931) ombads att designa märket, men slutligen kom det att designas av konstnären Eric Vasström (1887–1958). År 1921 godkände centralstyrelsen en logotyp där det blå hakkorset och texten Lotta Svärd inramades av fyra heraldiska rosor.</em></p>
       <p><em>Hakkorset är en tusentals år gammal symbol världen över, och den står för god lycka. De äldsta föremålen dekorerade med hakkors som vi hittat härstammar från 6000-5000 f.Kr. i norra Mesopotamien och i nuvarande Tjeckien. I Finland har man hittat hakkors på järnåldersföremål, i medeltida kyrkor (t.ex. Mariakyrkan i Åbo) och som dekorationer på föremål från början av 1900-talet.</em></p>
       <p><em>Hakkorset användes av den finska försvarsmakten 1918–1945 som det nationella emblemet på flygplan och pansarfordon.</em></p>
-      <p><em>Rosen är en mycket vanlig och utbredd symbol inom heraldiken (heraldik=läran om sköldar och vapen). Rosen symboliserar lycka och kärlek. ”</em> <a target="_blank" rel="noreferrer" href="https://perinne.fi/lotta-svard-jarjesto/mer info/lottamerkki/">Lottamerkki | Suojeluskunnat ja Lotta Svärd (perinne.fi)</a></p>
+      <p><em>Rosen är en mycket vanlig och utbredd symbol inom heraldiken (heraldik=läran om sköldar och vapen). Rosen symboliserar lycka och kärlek.”</em> <a target="_blank" rel="noreferrer" href="https://perinne.fi/lotta-svard-jarjesto/lisatietoa/lottamerkki/">Lottamerkki | Suojeluskunnat ja Lotta Svärd (perinne.fi)</a></p>
       <p>Förslag till uppgifter:</p>
       <ul>
         <li>Fundera tillsammans på varför olika tecken och symboler används? Vilka olika märken med symboler på har du sett? Var har du sett dem, och vad betyder de?</li>
@@ -48,11 +48,11 @@ const ElementaryLottaPin_sv = (): JSX.Element => {
       <ul>
         <li>Designa och skapa en egen logo åt skolan genom en logotävling.</li>
       </ul>
-      <p><a target="_blank" rel="noreferrer" href="https://www.designmuseum.fi/fi/muotoilun-tyokaluja-opetuksen/">Designmuseum</a></p>
+      <p><a target="_blank" rel="noreferrer" href="https://www.designmuseum.fi/fi/muotoilun-tyokaluja-opetukseen/">Designmuseum</a></p>
       <p>Användbara webblänkar:</p>
       <p><a target="_blank" rel="noreferrer" href="https://www.museoliitto.fi/museo-opetus">Suomen museoliitto - Opetus</a></p>
-      <p><a target="_blank" rel="noreferrer" href="https://opimuseossa.fi/opimuseossa/index.php?k=12378">https://opimuseossa.fi/opimuseossa/index.php ? k = 12378</a></p>
-      <p><a target="_blank" rel="noreferrer" href="https://lastenkulttuuri.fi/materialit/verkkomaterialit/">Lastenkulttuurin oppimateriaaleja verkossa - lastenkulttuuri.fi</a></p>
+      <p><a target="_blank" rel="noreferrer" href="https://opimuseossa.fi/opimuseossa/index.php?k=12378">https://opimuseossa.fi/opimuseossa/index.php?k=12378</a></p>
+      <p><a target="_blank" rel="noreferrer" href="https://lastenkulttuuri.fi/materiaalit/verkkomateriaalit/">Lastenkulttuurin oppimateriaaleja verkossa - lastenkulttuuri.fi</a></p>
     </div>
   );
 };

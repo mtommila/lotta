@@ -21,8 +21,8 @@ const KindergartenBreadRecipe_sv = (): JSX.Element => {
             <li>Skapa din egen tallriksmodell med olika sorters mat. Du kan klippa bilder från tidningar, rita mat, eller tillverka av trolldeg (instruktioner för trolldeg hittas enkelt online), etc.</li>
           </ul>
         </li>
-        <li>Varifrån kommer vår mat? Utforska hur maten hittar till våra tallrikar, till exempel från dessa websidor:<br/><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruuan -reitti-ruokakasvatusta- för grundskolor">https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille</a></li>
-        <li><a target="_blank" rel="noreferrer" href="https://www.mtvuutiset.fi/artikkeli/tiesitko-naita-kiehtovia-faktoja-matkaa-ruoan-mukana-suusta-vessanponttoon-kiinnita - uppmärksamhet slutresultat / 7948634 # gs.sxnqcw">Mänskliga matsmältningssystemets funktion: Så här färdas maten genom kroppen - MTVuutiset.fi</a></li>
+        <li>Varifrån kommer vår mat? Utforska hur maten hittar till våra tallrikar, till exempel från dessa websidor:<br/><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille">https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://www.mtvuutiset.fi/artikkeli/tiesitko-naita-kiehtovia-faktoja-matkaa-ruoan-mukana-suusta-vessanponttoon-kiinnita-huomio-lopputulokseen/7948634#gs.sxnqcw">Mänskliga matsmältningssystemets funktion: Så här färdas maten genom kroppen - MTVuutiset.fi</a></li>
       </ul>
       <ul>
         <li>Vilka livsmedel kan du odla själv?

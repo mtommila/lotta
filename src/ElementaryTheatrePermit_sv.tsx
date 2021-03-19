@@ -11,7 +11,7 @@ const ElementaryTheatrePermit_sv = (): JSX.Element => {
       <p><em>“Smålottorna samlades till handarbetskvällar där de, förutom att handarbeta, också läste och sjöng. Flickorna övade och framförde sånger, skådespel och läste både sina egna och vuxnas dikter.”</em> (Pikkulotan leikit, Perinneleikit r.y. & Lottamuseo, 2017)</p>
       <p>“... <em>smålottorna organiserade programkvällar för barn till migranter och reservister ...”</em></p>
       <p>(Pikkulotan leikit, Perinneleikit r.y. & Lottamuseo, 2017)</p>
-      <p>Förslag till uppgifter:</p>
+      <p><strong>Förslag till uppgifter:</strong></p>
       <ul>
         <li>Diskutera i gruppen om barnen har gått på teater. Vad är egentligen teater? Vilka olika typer av teater finns det? (t.ex. dockteater, skuggteater, bordteater...)</li>
       </ul>
@@ -33,10 +33,10 @@ const ElementaryTheatrePermit_sv = (): JSX.Element => {
         <li>Gör ett besök på en teater. (t.ex. närliggande amatörteatrar, konstklubbar för barn...)</li>
       </ul>
       <ul>
-        <li><a target="_blank" rel="noreferrer" href="https://mieli.fi/fi/kirjat/el%C3%A4inlasten-el%C3%A4m%C3%A4%C3%A4 - mental hälsa färdigheter-p% C3% B6yt% C3% A4theatrical means">Eläinlasten elämää - Mielenterveystaitojen pöytäteatterin keinoin / MIELI Suomen Mielenterveys ry.</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://mieli.fi/fi/kirjat/el%C3%A4inlasten-el%C3%A4m%C3%A4%C3%A4-mielenterveystaitoja-p%C3%B6yt%C3%A4teatterin-keinoin">Eläinlasten elämää - Mielenterveystaitojen pöytäteatterin keinoin / MIELI Suomen Mielenterveys ry.</a></li>
       </ul>
       <ul>
-        <li><a target="_blank" rel="noreferrer" href="https://www.teatterimuseo.fi/">Teatterimuseo</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://www.teatterimuseo.fi/sv">Teatermuseet</a></li>
       </ul>
       <p><strong>KODUPPGIFT 5: Bokstaven finns i brevet, i förkortningen i stämpeln.</strong></p>
     </div>

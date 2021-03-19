@@ -9,7 +9,7 @@ const ElementarySkiBadge_sv = (): JSX.Element => {
       <p><strong>Lotta Svärds gyllene skid- och gångmärke</strong></p>
       <img className="large" src={skiBadge} alt={translate ('ski_badge')}/>
       <p>Lotta Svärd ansåg, precis som man också gör idag, att en god fysisk och mental kondition förbättrar människors hälsa och livskvalitet. Träning uppmuntrades med olika nivåer av förtjänstmärken.<br/>Lottakåren hade sitt eget skid- och gångmärke som man kunde få genom att klara av olika utmaningar. Det gyllene gångmärket, som hade tre gyllene kottar hängande från det, var den högsta utmärkelsen.</p>
-      <p>Uppgifter:</p>
+      <p><strong>Uppgifter:</strong></p>
       <ul>
         <li>Designa ett gemensamt eller individuellt konditionsmärke för klassen. Vad bör man tänka på när man designar det? Kanske hur och var kan det fästas, vilket material ni använder (Obs! Fundera på hur ni kan använda återvunnet material), med vilka verktyg ni tillverkar det och på vilka sätt man kan förtjäna det?</li>
       </ul>

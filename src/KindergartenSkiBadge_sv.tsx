@@ -8,10 +8,10 @@ const KindergartenSkiBadge_sv = (): JSX.Element => {
       <p><mark>”Vad är det där som glänser och glittrar längst ner i kappsäcken?” undrar Oodi Ekorre. Han plockar upp det gyllene märket med tassarna och han tittar förtjust på de tre förgyllda kottarna som hänger från smycket. Oodi plockar tillsammans med Lotta och Harmonia upp det vackra smycket från kappsäckens botten. De undrar var Lottas mormor har hittat en sådan guldskatt.</mark></p>
       <p><strong>Lotta Svärds gyllene skid- och gångmärke</strong></p>
       <img className="large" src={skiBadge} alt={translate ('ski_badge')}/>
-      <p>Lotta Svärd ansåg, precis som man också gör idag, att en god fysisk och mental kondition förbättrar människors hälsa och livskvalitet. Träning uppmuntrades med olika nivåer av förtjänstmärken.<br/>Lottakåren hade sitt eget skid- och gångmärke som man kunde få genom att klara av olika utmaningar. Det gyllene gångmärket, som hade tre gyllene kottar hängande från det, var den högsta utmärkelsen.</p>
+      <p><em>Lotta Svärd ansåg, precis som man också gör idag, att en god fysisk och mental kondition förbättrar människors hälsa och livskvalitet. Träning uppmuntrades med olika nivåer av förtjänstmärken.<br/>Lottakåren hade sitt eget skid- och gångmärke som man kunde få genom att klara av olika utmaningar. Det gyllene gångmärket, som hade tre gyllene kottar hängande från det, var den högsta utmärkelsen.</em></p>
       <p>(<a target="_blank" rel="noreferrer" href="https://www.nostalgisetnaiset.fi/sananen-lottajarjeston-merkeista/">Sananen Lottajärjestön merkeistä ... - Nostalgiset Naiset</a>)<br/><br/><strong>Uppgifter:</strong></p>
       <ul>
-        <li>Designa ett gemensamt eller individuellt konditionsmärke åt gruppen. Vad bör man tänka på när man designar det? Kanske hur och var kan det fästas, vilket material ni använder (Obs! Fundera på hur ni kan använda återvunnet material!), med vilka verktyg ni tillverkar det och på vilka sätt man kan förtjäna det?</li>
+        <li>Designa ett gemensamt eller individuellt konditionsmärke åt gruppen. Vad bör man tänka på när man designar det? Kanske hur och var kan det fästas, vilket material ni använder (<em>Obs! Fundera på hur ni kan använda återvunnet material!</em>), med vilka verktyg ni tillverkar det och på vilka sätt man kan förtjäna det?</li>
       </ul>
       <ul>
         <li>Hur skapar du sådana märken?</li>
@@ -19,7 +19,7 @@ const KindergartenSkiBadge_sv = (): JSX.Element => {
       <ul>
         <li>Genom att rita eller måla (märkena håller bättre om de lamineras.)</li>
         <li>Genom olika hantverksmetoder (två- eller tredimensionellt t.ex. av lera, kartong, toalettrullar, eller naturmaterial, genom att väva av strån eller kvistar)</li>
-            <li>Genom att sy (av filt eller tyg)</li>
+        <li>Genom att sy (av filt eller tyg)</li>
       </ul>
       <p><em>Obs! Kom ihåg materialmångfald och försök återvinna använt material</em></p>
       <ul>

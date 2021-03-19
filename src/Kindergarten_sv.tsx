@@ -39,7 +39,7 @@ const Kindergarten_sv = (): JSX.Element => {
       <ul>
         <li>Har din resekompis några speciella förmågor eller kunskaper? Hur är det med dig? Vilka färdigheter har du? Vad betyder det egentligen att ha färdigheter? Varför behöver vi olika färdigheter? Är vi skickliga på något redan från att vi föds? Kanske rent av innan vi föds? Kan man förlora en färdighet?</li>
         <li>Finns det några färdigheter som du vill öva på eller lära dig under äventyret?</li>
-        <li>Du kan hitta på ett namn åt din resekompis och fundera ut en historia om hur du träffade honom/henne, hittade honom/henne eller var det resekompisen som hittade dig? Vi har var och en vår egen historia och berättelse. Vad är din historia?</li>
+        <li>Du kan hitta på ett namn åt din resekompis och fundera ut en historia om hur du träffade honom/henne, hittade honom/henne eller var det resekompisen som hittade dig? <strong>Vi har var och en vår egen historia och berättelse.</strong> Vad är din historia?</li>
       </ul>
       <p>Du kan introducera dessa frågor som du vill i gruppen, till exempel genom att diskutera, berätta, rita, använda dans och rörelse, använda musik eller sånger.</p>
       <p>Fundera också på och bestäm tillsammans hur du dokumenterar din grupps resa på vinden.</p>

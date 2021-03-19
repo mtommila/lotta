@@ -5,9 +5,9 @@ import breadRecipe from './bread_recipe.png';
 const HighschoolBreadRecipe_sv = (): JSX.Element => {
   return (
     <div>
-      <p>Monfood</p>
-      <p>“<em>Hösten 1938 planerade försvarsdepartementets militära ekonomiavdelning hushållningen i krigstid. Under planeringen märkte man att det kommer att vara omöjligt att leverera tillräckligt med bröd till armén ute i fält om de stora bageriernas arbete störs, till exempel om det blir strömavbrott. För att säkra tillgången på bröd bad den militärekonomiska avdelningen vid försvarsministeriet Lottakåren om hjälp. Lottorna bakade bröd som användes under extra repetitionsövningar och under vinterkriget. Som ett exempel kan nämnas att under vintern 1939 bakade lottadistrikten totalt 81 000 kilo bröd per dag. I början av vintern till och med upp till 103 000 kilo per dag. Denna otroliga bakningsinsats var gratisarbete som lottorna utförde. Försvarsmakten ersatte kostnaderna för att baka brödet.</em> ”<a target =" _ blank "rel =" noreferrer "href =" https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/muonitusjaosto">Avdelningar från Lotta Association - Lotta Svärd - Online Museum lottasvard.fi</a></p>
-      <p>Smålottorna ”<em>deltog i matlagningen. Arbetet innebar att laga maten och att duka bord. De fick också lära sig grunderna i hur man serverar.</em>.” <a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi / lottagalleria / lottajarjeston-jaostot / #! / pikkulotat">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo lottasvard.fi</a></p>
+      <p><strong>Monfood</strong></p>
+      <p>“<em>Hösten 1938 planerade försvarsdepartementets militära ekonomiavdelning hushållningen i krigstid. Under planeringen märkte man att det kommer att vara omöjligt att leverera tillräckligt med bröd till armén ute i fält om de stora bageriernas arbete störs, till exempel om det blir strömavbrott. För att säkra tillgången på bröd bad den militärekonomiska avdelningen vid försvarsministeriet Lottakåren om hjälp. Lottorna bakade bröd som användes under extra repetitionsövningar och under vinterkriget. Som ett exempel kan nämnas att under vintern 1939 bakade lottadistrikten totalt 81 000 kilo bröd per dag. I början av vintern till och med upp till 103 000 kilo per dag. Denna otroliga bakningsinsats var gratisarbete som lottorna utförde. Försvarsmakten ersatte kostnaderna för att baka brödet.</em> ”<a target ="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/muonitusjaosto">Avdelningar från Lotta Association - Lotta Svärd - Online Museum lottasvard.fi</a></p>
+      <p>Smålottorna ”<em>deltog i matlagningen. Arbetet innebar att laga maten och att duka bord. De fick också lära sig grunderna i hur man serverar.</em>.” <a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/pikkulotat">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo lottasvard.fi</a></p>
       <p>Knäckebrödrecept</p>
       <img className="large" src={breadRecipe} alt={translate ('bread_recipe')}/>
       <p>Förslag till uppgifter:</p>
@@ -24,8 +24,8 @@ const HighschoolBreadRecipe_sv = (): JSX.Element => {
       <ul>
         <li><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille">https://www.ruokatieto.fi/ruokakasvatus/ruuan-reitti-ruokakasvatusta-alakouluille</a></li>
         <li> Ta reda hur maten transporteras genom människokroppen (t.ex. genom Heureka-utställningar)</li>
-        <li><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruokaketju-ruuan-matka-pellolta-poyetaan/ravusmus-ja-ruuan-valinta/ruuansulatus">Ruuansulatus | Ruokatieto Yhdistys</a></li>
-        <li><a target="_blank" rel="noreferrer" href="https://peda.net/lahti/schools/carpan/subjects/biology/human/ Digestion">Ruuansulatus (peda.net)</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/ruokakasvatus/ruokaketju-ruuan-matka-pellolta-poytaan/ravitsemus-ja-ruuan-valinta/ruuansulatus">Ruuansulatus | Ruokatieto Yhdistys</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://peda.net/lahti/koulut/karpanen/oppiaineet/biologia/ihminen/ruuansulatus">Ruuansulatus (peda.net)</a></li>
       </ul>
       <ul>
         <li>Vilka livsmedel kan du odla själv? Vilka förutsättningar kräver växterna för att trivas?
@@ -48,7 +48,7 @@ const HighschoolBreadRecipe_sv = (): JSX.Element => {
       <ul>
         <li>Hur dukar man för olika typer av måltider? Ta reda på om det finns olika sätt att duka på. Leta på nätet efter olika sätt att vika servetter på, och träna servettvikning.</li><br/>
         <a target="_blank" rel="noreferrer" href="https://www.martat.fi/">Marttajärjestö on monessa mukana | Martat</a><br/>
-        <a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/">Ruokatieto Yhdistys</a>
+        <a target="_blank" rel="noreferrer" href="https://www.ruokatieto.fi/content/oka-uppskattning-av-finsk-matkultur">Ruokatieto Yhdistys</a>
       </ul>
     </div>
   );

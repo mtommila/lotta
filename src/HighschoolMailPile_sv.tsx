@@ -9,14 +9,14 @@ const HighschoolMailPile_sv = (): JSX.Element => {
     <div>
       <p>Fältpost</p>
       <img className="large" src={militaryMail} alt={translate ('military_mail')}/>
-      <p><em>“Arbetet för soldaternas välbefinnande omfattade bland annat att skicka paket och hälsningar, tjänstgöra vid militärsjukhus, att underhålla och att sälja frontmännens träsniderier..”</em> <a target="_blank" rel="noreferrer" href="https: //www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#! / kerays-ja-hooldtojaosto">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a></p>
+      <p><em>“Arbetet för soldaternas välbefinnande omfattade bland annat att skicka paket och hälsningar, tjänstgöra vid militärsjukhus, att underhålla och att sälja frontmännens träsniderier..”</em> <a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/kerays-ja-huoltojaosto">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a></p>
       <p><em>”I och med krigsutbrottet behövde staber, servicefaciliteter och många andra verksamhetspunkter personal som var vana vid kontorsarbete, och behovet av lottor som kunde tjänstgöra på kanslier växte snabbt. Kontorslottorna fungerade, förutom som kanslipersonal, under krigstid som fältpostiljoner och inom brevcensuren.</em></p>
       <p><em>En kontorssektion som hade hand om signaltjänster grundades, eftersom kriget gjorde att behovet av en sådan uppstod. Lottorna arbetade mycket med tekniskt arbete. Man ville nämligen befria så många män som möjligt från tekniska uppgifter för att kunna skicka dem till fronten. Under kriget arbetade kontorslottor bland annat som maskinskrivare och kontorsassistenter. De skötte katalogiseringar och fungerade som postiljoner och kartritare..</em></p>
       <p><em>Lottor inom signaltjänst arbetade som telefonoperatörer, radiolottor, fjärrskrivare och kryptografer. Lottorna som arbetade i krigszonen var vanligtvis stationerade i signalbataljonerna där de förmedlade meddelanden. ”</em> <a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/toimistojaviesti">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a></p>
       <p>Ett brev till mormor från lottan Airi</p>
       <img className="large" src={letter} alt={translate ('letter')}/>
       <img className="large" src={letterTranscript} alt={translate ('letter')}/>
-      <p>Förslag till uppgifter:</p>
+      <p><strong>Förslag till uppgifter:</strong></p>
       <ul>
         <li>Fundera tillsammans och förklara varför man skriver brev? Har du skrivit eller själv fått brev? Vilka saker behövs för att skriva och skicka ett brev? Hur kommer brevet fram?</li>
       </ul>
@@ -46,7 +46,7 @@ const HighschoolMailPile_sv = (): JSX.Element => {
         <a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/toimistojaviesti">Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a>
       </ul>
       <ul>
-        <li><a target="_blank" rel="noreferrer" href="https://www.postimuseo.fi/">Hemsida - Postmuseet</a></li>
+        <li><a target="_blank" rel="noreferrer" href="https://www.postimuseo.fi/sv/framsida/">Hemsida - Postmuseet</a></li>
       </ul>
     </div>
   );

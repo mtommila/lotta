@@ -10,7 +10,7 @@ const KindergartenBeeBadge_sv = (): JSX.Element => {
       <img className="large" src={beeBadge} alt={translate ('bee_badge')}/>
       <p><em>1943 års talkomärke för hemmafronten (Turun museokeskuksen lisenssi cc by nd-4.0)</em></p>
       <p><em>Ungdomstalko var en frivillig aktivitet bland barn och ungdomar. </em> <a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Lotta_Sv%C3%A4rd"><em>Lotta Svärd</em></a> <em>-organisationen hade 40 000 medlemmar som var flickor mellan 8 och 16 år. Smålottornas uppgifter delades in i talkoarbete, insamlingar och besparingstalkon.</em></p>
-      <p>(<a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/kerays-ja-huoltojaosto">(Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a></p>
+      <p><a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/kerays-ja-huoltojaosto">(Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a></p>
       <p><strong>Förslag till uppgifter:</strong></p>
       <ul>
         <li>Fundera tillsammans med barnen på vad talkoarbete innebär.</li>
@@ -46,9 +46,9 @@ const KindergartenBeeBadge_sv = (): JSX.Element => {
       </ul>
       <p><strong>Mera information om ungdomstalko:</strong></p>
       <p><em>Strategin för ungdomstalko utformades för att sporra tävlingsinstikterna på så sätt att man förtjänade in poäng in varje år för olika uppgifter, och på hösten fick man ett guld- silver eller bronsmärke. ”Skrotmyremärket” fick den som samlade in 20 hela flaskor, medan ”talangmyremärket” fick den som samlade en viss mängd träavfall eller kottar för att hjälpa sin familj.</em></p>
-      <p>(<a target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Youth_Talkers">https://fi.wikipedia.org/wiki/Nuorten_Talkoot.</a>.)</p>
+      <p>(<a target="_blank" rel="noreferrer" href="https://fi.wikipedia.org/wiki/Nuorten_Talkoot">https://fi.wikipedia.org/wiki/Nuorten_Talkoot</a>.)</p>
       <p><em>“Lottaorganisationens insamlingar var ganska olika. De mest lukrativa insamlingsformerna var lotterier och olika försäljningskampanjer. Till insamlingsavdelningens standarduppgifter hörde att sälja lottatidningen och ta upp prenumerationsbeställningar på den. ”</em></p>
-      <p>(<a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/kerays-ja-huoltojaosto">(Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a>)</p>
+      <p><a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/lottagalleria/lottajarjeston-jaostot/#!/kerays-ja-huoltojaosto">(Lottajärjestön jaostot - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a>)</p>
       <p><strong>KODUPPGIFT 2: Om du skiver ut den tredje siffran i förtjänstmärkets årtal med bokstäver, vilken är då den första bokstaven?</strong></p>
     </div>
   );

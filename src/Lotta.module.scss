@@ -10,25 +10,25 @@
 
 @media only screen and (max-width: 320px) {
   .home {
-    background-image: url("background_320.jpg");
+    background-image: url("background_320.png");
   }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
   .home {
-    background-image: url("background_768.jpg");
+    background-image: url("background_768.png");
   }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1920px) {
   .home {
-    background-image: url("background_1920.jpg");
+    background-image: url("background_1920.png");
   }
 }
 
 @media only screen and (min-width: 1921px) {
   .home {
-    background-image: url("background.jpg");
+    background-image: url("background.png");
   }
 }
 
@@ -51,6 +51,12 @@
 }
 
 @media only screen and (max-width: 39em) {
+  .xsmall  {
+    height: 5.5em;
+    width: 5.5em;
+    margin: 0.5em;
+  }
+
   .small  {
     height: 7em;
     width: 7em;
@@ -63,9 +69,20 @@
   background-color: yellow;
 }
 
+.tellus {
+  border-color: #0E4097;
+}
+
+.tellus img {
+  width: 70%;
+}
+
 .info {
-  border-color: lightskyblue;
-  background-color: lightskyblue;
+  border-color: #005E9D;
+}
+
+.info img {
+  width: 80%;
 }
 
 .kindergarten {

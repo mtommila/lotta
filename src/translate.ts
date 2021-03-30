@@ -3,7 +3,8 @@ import {createIntl, createIntlCache} from 'react-intl';
 export const messages: any = {
   fi: {
     welcome_linktext: 'Tervetuloa',
-    lottainfo_linktext: 'Lotta Svärd Säätiö',
+    operatellus_linktext: 'Opera Tellus',
+    lottainfo_linktext: 'Lottamuseo',
     homepage_linktext: 'Alkuun',
     kindergarten_linktext: 'Päiväkoti-ikäisille',
     lower_elementary_linktext: 'Vuosiluokat 1-6',
@@ -27,7 +28,8 @@ export const messages: any = {
   },
   sv: {
     welcome_linktext: 'Välkommen',
-    lottainfo_linktext: 'Lotta Svärd Stiftelsen',
+    operatellus_linktext: 'Opera Tellus',
+    lottainfo_linktext: 'Lottamuseet',
     homepage_linktext: 'Till början',
     kindergarten_linktext: 'För barn i dagisåldern',
     lower_elementary_linktext: 'För årskurs 1-6',

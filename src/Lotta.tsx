@@ -2,6 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import translate from './translate';
 import styles from './Lotta.module.scss';
+import operaTellus from './operatellus.jpg';
+import lottaMuseum from './lotta_museum.png';
 
 const Lotta = (): JSX.Element => {
   return (
@@ -24,9 +26,17 @@ const Lotta = (): JSX.Element => {
             </div>
           </div>
         </Link>
+        <span></span>
+        <span></span>
+        <span></span>
+        <a target="_blank" rel="noreferrer" href="https://www.operatellus.fi/">
+          <div className={styles.circle + ' ' + styles.xsmall + ' ' + styles.tellus}>
+            <img src={operaTellus} alt={translate('operatellus_linktext')}/>
+          </div>
+        </a>
         <Link to="/info">
-          <div className={styles.circle + ' ' + styles.info}>
-            {translate('lottainfo_linktext')}
+          <div className={styles.circle + ' ' + styles.xsmall + ' ' + styles.info}>
+            <img src={lottaMuseum} alt={translate('lottainfo_linktext')}/>
           </div>
         </Link>
       </div>

@@ -3,11 +3,9 @@ import React from 'react';
 const Info_fi = (): JSX.Element => {
   return (
     <div>
-      <p>Lainaus <a target="_blank" rel="noreferrer" href="https://www.lottasaatio.fi/">Lotta Svärd Säätiön</a> sivuilta:</p>
-      <h2>Lotta Svärd Säätiö</h2>
-      <p>Yhteiskunnallinen huoltotyö oli aikoinaan Lottajärjestön toiminnan ytimessä ja samalla tiellä jatkaa Lotta Svärd Säätiö vielä tänä päivänäkin.</p>
-      <p>Lakkautetun Lottajärjestön jäsenten kuntoutus- ja avustustoiminta ovat Lotta Svärd Säätiön toiminnan keskiössä. Sääntöjensä mukaisesti säätiö myös tukee vapaaehtoista maanpuolustustyötä, jonka painopisteenä on arjen turvallisuuden parantaminen. Lottamuseon kautta säätiö puolestaan toteuttaa tehtäväänsä kertoa Lottajärjestön historiasta, toiminnasta ja naisten vapaaehtoisesta työstä.</p>
-      <p>Lisätietoa Lotta Svärd Säätiön historiasta <a target="_blank" rel="noreferrer" href="http://www.lottasvard.fi/">Lotta Svärd -verkkomuseosta</a> sekä <a target="_blank" rel="noreferrer" href="https://perinne.fi/">Suojeluskunnat ja Lotta Svärd -sivustolta</a>.</p>
+      <h2>Lottamuseo</h2>
+      <p>Lottamuseo sijaitsee Tuusulan Rantatien kulttuurihistoriallisesti arvokkaissa maisemissa Syvärannan tilalla. Syvärannan vanha päärakennus tuhoutui tulipalossa vuonna 1947. Suomen Naisten Huoltosäätiö (nyk. Lotta Svärd Säätiö) rakennutti vanhan huvilan paikalle vuonna 1995 uudisrakennuksen, jossa Lottamuseo toimii.</p>
+      <p>Lottamuseo on tunnettu aktiivisesta näyttelytoiminnastaan, laadukkaista palvelutuotteistaan ja monipuolisesta tapahtumatuotannostaan. Lottamuseo ja museokahvila Lottakanttiini palvelevat asiakkaitaan ympäri vuoden. Museomyymälä Lottapuodin logotuotteita voi ostaa joko museovierailun yhteydessä tai Lottapuodin verkkokaupasta.</p>
     </div>
   );
 };

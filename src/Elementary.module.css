@@ -3,6 +3,10 @@
   max-width: 100%;
 }
 
+.link {
+  cursor: pointer;
+}
+
 .base {
   display: inline-block;
   position: relative;
@@ -23,8 +27,7 @@
 
 .cover {
   background-color: white;
-  border: solid black 0.2em;
-  border: 0.5em solid;
+  border: solid black 0.5em;
   border-radius: 50%;
   height: 8em;
   width: 8em;

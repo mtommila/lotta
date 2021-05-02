@@ -32,7 +32,7 @@ const Elementary = (): JSX.Element => {
               <span className={styles.foreground + ' ' + styles.item7}><Link to="/ala-aste/koodi">{translate('code')}</Link></span>
             </div>
             :
-            <img className={styles.full} src={suitcaseClosed} alt={translate('suitcase')}
+            <img className={styles.link + ' ' + styles.full} src={suitcaseClosed} alt={translate('suitcase')}
               onClick={() => suitcaseAudio.play().then(() => setSuitcaseOpen(true))}/>
         }
       </div>

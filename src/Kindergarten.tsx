@@ -30,7 +30,7 @@ const Kindergarten = (): JSX.Element => {
               <span className={styles.foreground + ' ' + styles.item6}><Link to="/paivakoti/koodi">{translate('code')}</Link></span>
             </div>
             :
-            <img className={styles.full} src={suitcaseClosed} alt={translate('suitcase')}
+            <img className={styles.link + ' ' + styles.full} src={suitcaseClosed} alt={translate('suitcase')}
               onClick={() => suitcaseAudio.play().then(() => setSuitcaseOpen(true))}/>
         }
       </div>

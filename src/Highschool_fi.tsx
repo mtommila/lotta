@@ -12,6 +12,7 @@ const Highschool_fi = (): JSX.Element => {
       <p>“<em>Lottajärjestö oli naisten vapaaehtoinen, aseeton maanpuolustusjärjestö, joka toimi vuosina 1921-1944. Jäseniä järjestössä oli enimmillään noin 240 000, joista 8-17 -vuotiaita pikkulottia lähes 50 000.</em></p>
       <p><em>Rauhan aikana yksi lottajärjestön tärkeimmistä tavoitteista oli tarjota koulutusta jäsenilleen. Koulutuksen avulla lottajärjestö onnistui luomaan organisaation, jolla oli toimintavalmiudet sota-ajan poikkeuksellisissa olosuhteissa. Sota-aikana lottien yhteiskuntavastuu näyttäytyi muun muassa heikompiosaisista huolehtimisena, sotapakolaisten matkan turvaamisena, vanhusten ja lasten auttamisena sekä sairaiden hoitamisena.</em></p>
       <p><em>Lottajärjestö lakkautettiin syksyllä 1944 Moskovan välirauhansopimuksen nojalla. Järjestön lakkauttamisen jälkeen lotat jatkoivat huolto- ja avustustyötä Suomen Naisten Huoltosäätiön nimissä. Vuonna 2004 Suomen Naisten Huoltosäätiön nimi muutettiin Lotta Svärd Säätiöksi.” </em><a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/">Etusivu - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a></p>
+      <p><strong>Klikkaamalla matkalaukun kuvaa pääset tutkimaan kaikki tehtäväosiot, jotka löytyvät matkalaukussa olevien esineiden takaa.</strong></p>
     </div>
   );
 };

@@ -18,6 +18,7 @@ const Kindergarten_fi = (): JSX.Element => {
       <img className={styles.coloring} src={mouse} alt={translate('harmonia')}/>
       <img className={styles.coloring} src={squirrel} alt={translate('oodi')}/>
       <p>Lähtekää mukaan selvittämään, mikä Ullakon salaisuus on. Samalla tavoitteena on tutustua ja oppia asioita mm. Suomen historiasta, perinteistä ja kulttuurista erilaisten toiminnallisten tehtävien kautta, joita voitte yhdessä tutkia, suunnitella ja toteuttaa kaikkia osallistaen.Tämän tehtävävinkkipaketin ideoinnin tavoitteena on ollut huomioida mahdollisimman paljon laaja-alaisen osaamisen eri osa-alueita. Paketista löytyy kolme eri osiota (päiväkoti, ala- ja yläkoulu) , joiden tehtävät on suunnattu eri ikäryhmille. Kaikista osioista voi vapaasti valita tehtäviä omaan opetukseen.</p>
+      <p><strong>Klikkaamalla matkalaukun kuvaa pääset lukemaan aloitustarinan sekä pääset tutkimaan kaikki tehtäväosiot, jotka löytyvät matkalaukussa olevien esineiden takaa.</strong></p>
       <p><mark>Viiden osion lopusta löytyy lisäksi kooditehtävä. Koodin ratkaistuasi paljastuu lopulta Ullakon perimmäinen salaisuus. Järjestäkää selvittämänne koodikirjaimet niin, että niistä muodostuu sana. Laittakaa tämä sana matkalaukussa olevaan koodille varattuun kohtaan.</mark></p>
       <p><strong>Päiväkodin Ullakon salaisuus -seikkailu alkaa tästä:</strong></p>
       <Link to="/paivakoti/lotta"><img className={styles.coloring} src={coloringGirl} alt={translate('coloring_image')}/></Link>

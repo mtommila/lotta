@@ -18,6 +18,7 @@ const Elementary_sv = (): JSX.Element => {
       <img className = {styles.coloring} src={mouse} alt={translate ('harmony')}/>
       <img className = {styles.coloring} src={squirrel} alt={translate ('oodi')}/>
       <p>Kom med och ta reda på vad vindens hemlighet är! Målet är att barnen ska bekanta sig med och lära sig om bland annat Finlands historia, traditioner och kultur. Som lärare kan du tillsammans med dina elever studera, planera och genomföra olika uppgifter, vilka är utformade så att alla kan delta i dem. Det finns tre olika nivåer i paketet, anpassade för olika åldersgrupper.</p>
+      <p><strong>Genom att klicka på kappsäckens bild kan du läsa inledningsberättelsen och utforska alla uppgiftsavsnitt som finns bakom de olika föremålen i resväskan.</strong></p>
       <p><mark>Det finns också en koduppgift i slutet av varje av de fem delarna. Efter att du knäckt koden avslöjas den spännande hemligheten på vinden. Ordna kodbokstäverna så att de bildar ett ord. Skriv in detta ord i det utrymme som anges i koden i din resväska.</mark></p>
       <p><strong>Äventyret med vindens hemlighet för grundskolan börjar här:</strong></p>
       <Link to="/ala-aste/lotta"><img className = {styles.coloring} src={coloringGirl} alt={translate ('coloring_image')}/></Link>

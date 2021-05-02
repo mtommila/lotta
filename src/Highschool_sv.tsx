@@ -12,6 +12,7 @@ const Highschool_sv = (): JSX.Element => {
       <p>“<em>Lottarörelsen var en frivillig, vapenlös nationell försvarsorganisation för kvinnor. Den verkade från 1921-1944. Rörelsen hade som mest cirka 240 000 medlemmar, varav nästan 50 000 var 8-17-åringar.</em></p>
       <p><em>Under fredstid var ett av lottarörelsens huvudmål att erbjuda utbildning åt sina medlemmar. Genom utbildningen lyckades lottarörelsen skapa en organisation med stark handlingsförmåga under krigstidens exceptionella omständigheter. Under kriget syntes rörelsens sociala ansvar bland annat i att ta hand om de svagaste i samhället, genom skapa säkra flyktvägar för kringsflyktingar, hjälpa äldre och barn och omsorgen om sjuka.</em></p>
       <p><em>Lottarörelsen upplöstes hösten 1944 i och med mellanfreden i Moskva. Efter att organisationen upplösts fortsatte lottorna att tillhandahålla underhålls- och hjälparbete under namnet Vårdstiftelsen för Finlands Kvinnor. År 2004 ändrades namnet på Vårdstiftelsen för Finlands Kvinnor till Lotta Svärd -Stiftelsen. ”</em> <a target="_blank" rel="noreferrer" href="https://www.lottasvard.fi/">Etusivu - Lotta Svärd - Verkkomuseo (lottasvard.fi)</a> </ p >
+      <p><strong>Genom att klicka på kappsäckens bild kan du utforska alla uppgiftsavsnitt som finns bakom de olika föremålen i resväskan.</strong></p>
     </div>
   );
 };

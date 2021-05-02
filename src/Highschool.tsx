@@ -30,7 +30,7 @@ const Highschool = (): JSX.Element => {
               <Link to="/ylaaste/teatterilupa"><img className={styles.foreground + ' ' + styles.item6} src={theatrePermit} alt={translate('theatre_permit')} width="18.6%" height="19.5975%"/></Link>
             </div>
             :
-            <img className={styles.full} src={suitcaseClosed} alt={translate('suitcase')}
+            <img className={styles.link + ' ' + styles.full} src={suitcaseClosed} alt={translate('suitcase')}
               onClick={() => suitcaseAudio.play().then(() => setSuitcaseOpen(true))}/>
         }
       </div>

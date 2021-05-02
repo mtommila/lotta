@@ -54,7 +54,7 @@ const App = (): JSX.Element => {
           På svenska
         </button>
       </div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <nav className="noprint">
           <ul>
             <li>
